@@ -1254,7 +1254,7 @@ span {
     width: 100%;
     height: 100%;
     content: "";
-    background-color: var(--theme);
+    background-color: #9ab2fb;
     right: 50px;
     left: 50px;
     border-radius: 30px;
@@ -1363,7 +1363,7 @@ span {
     border: none;
     text-transform: capitalize;
     text-align: center;
-    background-color: var(--theme);
+    background-color: #6f92f8;
     color: var(--white);
     font-size: 16px;
     font-weight: 700;
@@ -1403,7 +1403,7 @@ span {
     max-width: 430px;
     margin: 0 auto;
     padding: 30px;
-    background: var(--theme);
+    background: #9ab2fb;
     border-radius: 0px 0px 8px 8px;
 }
 
@@ -1668,7 +1668,7 @@ span {
     width: 100%;
     height: 100%;
     content: "";
-    background-color: #18185E;
+    background-color: #161618;
     top: 60%;
     height: initial;
 }
@@ -2730,7 +2730,7 @@ span {
 }
 
 .footer-bottom {
-    background-color: var(--theme);
+    background-color: rgb(24, 24, 24);
     padding: 30px 0;
     position: relative;
     margin-top: 30px;
@@ -5846,7 +5846,7 @@ input.main-search-input::placeholder {
 
 .back-to-top {
     border-radius: 50%;
-    background-color: var(--theme);
+    background-color: #9ab2fb;
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -5962,7 +5962,7 @@ input.main-search-input::placeholder {
 }
 
 .pricing-box-items.style-2 .pricing-header {
-    background: #6A47ED;
+    background: #9ab2fb;
 }
 
 .pricing-box-items.style-2 .price-button .theme-btn {
@@ -6975,7 +6975,7 @@ input.main-search-input::placeholder {
 }
 
 .footer-bg {
-    background-color: #18185E;
+    background-color: #161616;
 }
 
 .section-padding {
