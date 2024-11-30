@@ -1,0 +1,200 @@
+.scrolling-wrap {
+	overflow: hidden;
+	white-space: nowrap;
+	display: flex;
+	gap: 20px;
+    margin-top: -14px;
+
+	.comm {
+		display: flex;
+		align-items: center;
+		animation: scroll 60s linear infinite;
+		gap: 30px;
+		cursor: pointer;
+
+		.cmn-textslide {
+			font-size: 60px;
+			font-weight: 800;
+			line-height: 80px;
+			text-transform: capitalize;
+            color: $header-color;
+            font-family: $heading-font;
+            @include flex;
+            gap: 8px;
+
+            img {
+                margin-right: 10px;
+            }
+
+            &.stroke-text {
+                -webkit-text-stroke-width: 1;
+                -webkit-text-stroke: 1px #17012C;
+				-webkit-text-fill-color: transparent;
+            }
+		}
+	}
+
+	&:hover {
+		.comm {
+			animation-play-state: paused;
+		}
+	}
+
+	@include breakpoint (max-xxl) {
+		.comm {
+			gap: 20px;
+		}
+	}
+
+	@include breakpoint (max-lg) {
+		gap: 14px;
+		.comm {
+			gap: 14px;
+		}
+	}
+
+	@include breakpoint (max-sm) {
+		.comm {
+			gap: 12px;
+		}
+	}
+}
+
+.marquee-section-1 {
+	position: relative;
+	z-index: 99;
+}
+
+.mycustom-marque {
+	&.style-2 {
+		border: 1px solid $header-color;
+		background: $white;
+		box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.10);
+		transform: rotate(1.913deg);
+		margin-top: -15px;
+		position: relative;
+		z-index: 9;
+
+		@include breakpoint (max-xxl){
+           margin-top: 0;
+		   transform: rotate(0);
+        }
+
+		.scrolling-wrap {
+			.comm {
+				.cmn-textslide {
+					font-size: 30px;
+					font-weight: 800;
+					text-transform: capitalize;
+					color: $header-color;
+					padding-top: 10px;
+				}
+			}
+		}
+
+		&.bg-2 {
+			background-color: $header-color;
+			border: none;
+			box-shadow: none;
+			margin-top: 0;
+
+			.scrolling-wrap {
+				.comm {
+					.cmn-textslide {
+						color: $white;
+						padding-top: 0;
+					}
+				}
+			}
+		}
+	}
+
+	&.style-3 {
+		background: $theme-color-2;
+		transform: rotate(-2.772deg);
+		margin-top: -52px;
+		position: relative;
+		z-index: 7;
+
+		@include breakpoint (max-xxl){
+			margin-top: 0;
+			transform: rotate(0);
+		 }
+
+		.scrolling-wrap {
+			.comm {
+				@include breakpoint (max-xxl){
+					animation: scroll2 60s linear infinite;
+				}
+
+				.cmn-textslide {
+					font-size: 30px;
+					font-weight: 800;
+					text-transform: capitalize;
+					color: $header-color;
+					padding-top: 0;
+				}
+			}
+
+			&:hover {
+				.comm {
+					animation-play-state: paused;
+				}
+			}
+		}
+
+		&.bg-3 {
+			background-color: $theme-color;
+			border: none;
+			box-shadow: none;
+			margin-top: -70px;
+
+			@include breakpoint (max-xxl){
+				margin-top: 0;
+			}
+
+			.scrolling-wrap {
+				.comm {
+					.cmn-textslide {
+						color: $white;
+						padding-top: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+@keyframes scroll3 {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(100%);
+	}
+}
+@keyframes scroll2 {
+	0% {
+		transform: translateX(0%);
+	}
+	100% {
+		transform: translateX(-200%);
+	}
+}
+
+.marquee-2 {
+	margin-bottom: 30px;
+
+	@include breakpoint (max-xxl){
+		margin-bottom: 0;
+	}
+}
