@@ -3399,7 +3399,31 @@
                                     <p>Our Clients
                                     </p>
                                 </div>
+                                <style>
+                                                        .slider-logo img {
+    max-width: 100%; /* Ensures images don't exceed the container's width */
+    height: auto;    /* Maintains aspect ratio */
+    display: block;  /* Removes extra space at the bottom of the image */
+    margin: 0 auto;  /* Centers the image */
+}
 
+@media screen and (max-width: 768px) {
+    .membership-certificate-wrapper {
+        width: 100%; /* Adjust container width for smaller screens */
+        margin-bottom: 20px; /* Add spacing between logos */
+    }
+
+    .slider-logo img {
+        max-width: 60%; /* Further scale down for smaller devices */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo-slider img {
+        max-width: 60%; /* Further scaling for very small screens */
+    }
+}
+</style>
 
 
                                 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
@@ -3412,6 +3436,9 @@
                                             <div class="">
                                                 <div class="gradient-overlay"></div>
                                                 <ul class="logo-slider">
+
+
+                                                  
     <li>
         <img decoding="async"
              src="Untitled design/1.png"

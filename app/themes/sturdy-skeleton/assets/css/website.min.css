@@ -416,6 +416,12 @@ img {
     height: auto
 }
 
+@media (min-width:721px) {
+img{
+    max-width: 60%;
+}
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
