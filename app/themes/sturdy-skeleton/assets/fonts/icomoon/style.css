@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('/app/themes/sturdy-skeleton/assets/fonts/icomoon/icomoon.eot?m3rsto');
+    src: url('/app/themes/sturdy-skeleton/assets/fonts/icomoon/icomoon.eot?m3rsto#iefix') format('embedded-opentype'), url('/app/themes/sturdy-skeleton/assets/fonts/icomoon/icomoon.woff2?m3rsto') format('woff2'), url('/app/themes/sturdy-skeleton/assets/fonts/icomoon/icomoon.ttf?m3rsto') format('truetype'), url('/app/themes/sturdy-skeleton/assets/fonts/icomoon/icomoon.woff?m3rsto') format('woff'), url('/app/themes/sturdy-skeleton/assets/fonts/icomoon/icomoon.svg?m3rsto#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tiktok:before {
+    content: "\e91a";
+}
+
+.icon-triangle:before {
+    content: "\e918";
+}
+
+.icon-shoppingcart:before {
+    content: "\e917";
+}
+
+.icon-play:before {
+    content: "\e915";
+}
+
+.icon-upload:before {
+    content: "\e914";
+}
+
+.icon-share:before {
+    content: "\e912";
+}
+
+.icon-double-arrows-left:before {
+    content: "\e910";
+}
+
+.icon-small-arrow-right:before {
+    content: "\e90f";
+}
+
+.icon-home:before {
+    content: "\e90e";
+}
+
+.icon-cross:before {
+    content: "\e90d";
+}
+
+.icon-search:before {
+    content: "\e90c";
+}
+
+.icon-linkedin:before {
+    content: "\e907";
+}
+
+.icon-x:before {
+    content: "\e908";
+}
+
+.icon-instagram:before {
+    content: "\e909";
+}
+
+.icon-youtube:before {
+    content: "\e90a";
+}
+
+.icon-facebook:before {
+    content: "\e90b";
+}
+
+.icon-double-arrow-right:before {
+    content: "\e905";
+}
+
+.icon-double-arrows:before {
+    content: "\e905";
+}
+
+.icon-data-automation:before {
+    content: "\e900";
+}
+
+.icon-strategy-branding:before {
+    content: "\e901";
+}
+
+.icon-digital-marketing:before {
+    content: "\e902";
+}
+
+.icon-training-decoupling:before {
+    content: "\e903";
+}
+
+.icon-content-creation:before {
+    content: "\e904";
+}
+
+.icon-pause:before {
+    content: "\e919";
+}
+
+.icon-phone:before {
+    content: "\e913";
+}
+
+.icon-telephone:before {
+    content: "\e913";
+}
+
+.icon-contact:before {
+    content: "\e913";
+}
+
+.icon-support:before {
+    content: "\e913";
+}
+
+.icon-call:before {
+    content: "\e913";
+}
+
+.icon-whatsapp:before {
+    content: "\e911";
+}
+
+.icon-envelop:before {
+    content: "\e906";
+}
+
+.icon-mail:before {
+    content: "\e906";
+}
+
+.icon-email:before {
+    content: "\e906";
+}
+
+.icon-contact1:before {
+    content: "\e906";
+}
+
+.icon-letter:before {
+    content: "\e906";
+}
+
+.icon-lock:before {
+    content: "\e916";
+}
+
+.icon-phone:before {
+    content: "\e913";
+}
+
+.icon-telephone:before {
+    content: "\e913";
+}
+
+.icon-contact:before {
+    content: "\e913";
+}
+
+.icon-support:before {
+    content: "\e913";
+}
+
+.icon-call:before {
+    content: "\e913";
+}
+
+.icon-whatsapp:before {
+    content: "\e911";
+}
+
+.icon-envelop:before {
+    content: "\e906";
+}
+
+.icon-mail:before {
+    content: "\e906";
+}
+
+.icon-email:before {
+    content: "\e906";
+}
+
+.icon-contact1:before {
+    content: "\e906";
+}
+
+.icon-letter:before {
+    content: "\e906";
+}

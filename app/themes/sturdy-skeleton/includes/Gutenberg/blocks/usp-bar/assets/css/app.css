@@ -1,0 +1,53 @@
+.content-image-cta p {
+    font-size: 12px
+}
+
+.usp-bar {
+    overflow: hidden;
+    background-color: var(--wp--preset--color--foreground);
+    border-radius: 20px;
+    margin-bottom: 20px
+}
+
+.usp-bar .usp-bar-wrapper {
+    display: flex;
+    gap: 40px
+}
+
+.usp-bar .usp-bar-wrapper .usp-bar__list {
+    list-style-type: none;
+    margin: 0;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 30px 0
+}
+
+.usp-bar .usp-bar-wrapper .usp-bar__list li {
+    display: flex;
+    gap: 5px
+}
+
+.usp-bar .usp-bar-wrapper .usp-bar__list li span.icon-double-arrows:before {
+    line-height: 28px;
+    font-size: 25px
+}
+
+.usp-bar .usp-bar-wrapper .usp-bar__list li span.usp-text {
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: var(--wp--preset--font-family--futura-pt)
+}
+
+.usp-bar .usp-bar-wrapper .usp-bar__list li:nth-child(3n-2) span.icon-double-arrows:before {
+    color: var(--wp--preset--color--primary)
+}
+
+.usp-bar .usp-bar-wrapper .usp-bar__list li:nth-child(3n-1) span.icon-double-arrows:before {
+    color: var(--wp--preset--color--secondary)
+}
+
+.usp-bar .usp-bar-wrapper .usp-bar__list li:nth-child(3n-0) span.icon-double-arrows:before {
+    color: var(--wp--preset--color--tertiary)
+}

@@ -1,0 +1,916 @@
+.content-image-cta p {
+    font-size: 12px
+}
+
+@media (min-width:981px) {
+    .site-header.sticky li.mega-menu:after {
+        color: var(--wp--preset--color--white)
+    }
+    .site-header.sticky li.mega-menu .sub-menu-wrap:after {
+        margin-top: 17px
+    }
+    .menu-container li.mega-menu {
+        position: inherit;
+        transition: opacity .2s ease-in-out 0s !important
+    }
+    .menu-container li.mega-menu:after {
+        content: "\e900";
+        font-family: Icomoon;
+        position: relative;
+        display: inline-block;
+        font-weight: 700
+    }
+    .menu-container li.mega-menu a {
+        position: relative
+    }
+    .menu-container li.mega-menu a:after {
+        display: none
+    }
+    .menu-container li.mega-menu:hover {
+        transition: opacity .2s ease-in-out 0s !important
+    }
+    .menu-container li.mega-menu:first-child:hover>a:before,
+    .menu-container li.mega-menu:nth-child(2):hover>a:before {
+        border-bottom-color: var(--wp--preset--color--textcolor)
+    }
+    .menu-container li.mega-menu.current-menu-item:hover>a:before,
+    .menu-container li.mega-menu.current_page_ancestor:hover>a:before {
+        border: transparent
+    }
+    .menu-container li.mega-menu li.current-menu-ancestor>a:before,
+    .menu-container li.mega-menu li.current-menu-item>a:before {
+        display: none
+    }
+    .menu-container li.mega-menu>.sub-menu-wrap {
+        z-index: 999;
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1em;
+        left: 0;
+        right: 0
+    }
+    .menu-container li.mega-menu>.sub-menu-wrap:after {
+        content: "";
+        background-color: var(--wp--preset--color--primary);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        margin-top: 17px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .16)
+    }
+    .menu-container li.mega-menu>.sub-menu-wrap>ul.sub-menu {
+        box-shadow: none;
+        max-width: 1300px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: inherit;
+        position: relative;
+        visibility: hidden;
+        padding-bottom: 0;
+        opacity: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end
+    }
+    .menu-container li.mega-menu>.sub-menu-wrap>ul.sub-menu a {
+        color: var(--wp--preset--color--white)
+    }
+    .menu-container li.mega-menu>.sub-menu-wrap>ul.sub-menu>li {
+        flex-basis: 25%;
+        position: relative
+    }
+    .menu-container li.mega-menu>.sub-menu-wrap>ul.sub-menu>li>a {
+        position: relative;
+        display: block;
+        border-bottom: 3px solid rgba(var(--wp--preset--color--white), .61);
+        padding-bottom: .5em;
+        padding-left: .5em;
+        margin-bottom: .5em;
+        font-size: modular-scale(0);
+        line-height: 1.15
+    }
+    .menu-container li.mega-menu>.sub-menu-wrap>ul.sub-menu>li .sub-menu {
+        position: relative;
+        background: transparent;
+        padding: 0;
+        width: auto;
+        font-weight: 400;
+        font-size: 17.78px
+    }
+    .menu-container li.mega-menu>.sub-menu-wrap>ul.sub-menu>li .sub-menu li {
+        margin: 0;
+        padding: 0
+    }
+    .menu-container li.mega-menu>.sub-menu-wrap>ul.sub-menu>li .sub-menu li a {
+        padding: .75em .5em;
+        display: block;
+        transition: color .3s ease-in-out
+    }
+    .menu-container li.mega-menu>.sub-menu-wrap>ul.sub-menu>li .sub-menu li a:hover {
+        background: rgba(var(--wp--preset--color--white), .15)
+    }
+    .menu-container li.mega-menu>.sub-menu-wrap li {
+        background: none
+    }
+    .menu-container li.mega-menu:hover>.sub-menu-wrap,
+    .menu-container li.mega-menu:hover>.sub-menu-wrap .sub-menu {
+        visibility: visible;
+        opacity: 1
+    }
+}
+
+.toggle-menu {
+    position: absolute;
+    top: 0;
+    left: -150vw;
+    height: 100vh;
+    width: 500px;
+    background-color: var(--wp--preset--color--quaternary);
+    transition: left .3s ease-in-out;
+    z-index: 9999;
+    border-radius: 30px;
+    padding: 30px 0
+}
+
+@media (min-width:981px) {
+    .toggle-menu {
+        padding: 3.5em 0
+    }
+}
+
+.toggle-menu:before {
+    content: "";
+    height: 925px;
+    width: 925px;
+    border-radius: 50%;
+    background-color: var(--wp--preset--color--black);
+    opacity: .1;
+    position: absolute;
+    top: -200px;
+    left: -500px;
+    z-index: 1
+}
+
+.toggle-menu .close-menu {
+    display: none
+}
+
+.toggle-menu .navigate-to {
+    font-family: var(--wp--preset--font-family--futura-pt);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--wp--preset--color--tertiary);
+    padding: 0 30px;
+    margin-top: 0;
+    position: relative;
+    z-index: 1;
+    text-transform: unset
+}
+
+.toggle-menu .main-nav {
+    padding: 0 30px;
+    margin-bottom: 30px
+}
+
+.toggle-menu .main-nav li:last-of-type {
+    padding-bottom: 0
+}
+
+.toggle-menu .main-nav li a {
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 38px
+}
+
+.toggle-menu .main-sub-nav {
+    padding: 0 30px;
+    margin-bottom: 50px
+}
+
+.toggle-menu .main-sub-nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 26px
+}
+
+.toggle-menu .menu {
+    display: block;
+    z-index: 10;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.toggle-menu .menu>li {
+    padding: 0 0 1.5em
+}
+
+.toggle-menu .menu li {
+    position: relative
+}
+
+.toggle-menu .menu li a {
+    line-height: 1;
+    color: var(--wp--preset--color--white);
+    display: block;
+    transition: color .3s ease-in-out
+}
+
+.toggle-menu .menu li a:hover {
+    text-decoration: none;
+    color: var(--wp--preset--color--primary)
+}
+
+.toggle-menu .menu li a.focus-visible,
+.toggle-menu .menu li a:focus,
+.toggle-menu .menu li a:focus-visible {
+    outline: 2px solid var(--wp--preset--color--white);
+    outline-offset: 3px;
+    border-radius: 1px
+}
+
+.toggle-menu .menu .visible>.open-sub-menu:before {
+    content: "\e911"
+}
+
+.toggle-menu .menu .visible>.sub-menu,
+.toggle-menu .menu .visible>.sub-menu-wrap>.sub-menu {
+    margin-top: 1em;
+    display: block !important;
+    max-height: 90000px !important
+}
+
+.toggle-menu .current-menu-ancestor>a,
+.toggle-menu li.current-menu-item>a,
+.toggle-menu li.current_page_ancestor>a,
+.toggle-menu li.current_page_item>a {
+    color: var(--wp--preset--color--primary)
+}
+
+.toggle-menu .menu-footer {
+    padding: 0 30px;
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+    position: relative;
+    z-index: 1
+}
+
+.toggle-menu .menu-footer .socials {
+    display: flex;
+    gap: 1em;
+    align-items: center
+}
+
+@media (min-width:981px) {
+    .toggle-menu .menu-footer .socials {
+        padding: 15px 0
+    }
+}
+
+.toggle-menu .menu-footer .socials a {
+    color: var(--wp--preset--color--white);
+    text-decoration: none;
+    transition: color .3s ease-in-out
+}
+
+.toggle-menu .menu-footer .socials a:hover {
+    color: var(--wp--preset--color--primary)
+}
+
+.toggle-menu .menu-footer .socials a:nth-child(3n+2):hover {
+    color: var(--wp--preset--color--secondary)
+}
+
+.toggle-menu .menu-footer .socials a:nth-child(3n+3):hover {
+    color: var(--wp--preset--color--tertiary)
+}
+
+.toggle-menu .menu-footer .socials a span,
+.toggle-menu .menu-footer .socials a span:before {
+    width: auto
+}
+
+.toggle-menu .menu-footer .language-switcher {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(20deg, #6984c9, #3857a3 70%), linear-gradient(30deg, #ffd23f, #f7b1ab 35%, #9fedea 70%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    -webkit-background-clip: content-box, border-box;
+    border: 1px solid transparent;
+    border-radius: 15px
+}
+
+.toggle-menu .menu-footer .language-switcher.open .lang-dropdown {
+    display: block
+}
+
+.toggle-menu .menu-footer .language-switcher.open:after {
+    transform: rotate(270deg)
+}
+
+.toggle-menu .menu-footer .language-switcher .current {
+    position: relative
+}
+
+.toggle-menu .menu-footer .language-switcher .current-in {
+    padding: 12px 34px 12px 15px;
+    min-width: 70px
+}
+
+.toggle-menu .menu-footer .language-switcher:after {
+    content: "\e90f";
+    font-family: icomoon, "sans-serif";
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    transform: rotate(90deg);
+    font-size: 12px;
+    pointer-events: none;
+    transition: transform .2s ease-in-out
+}
+
+.toggle-menu .menu-footer .language-switcher .lang-dropdown {
+    margin: -10px 0 0;
+    padding: 0;
+    list-style: none;
+    display: none
+}
+
+.toggle-menu .menu-footer .language-switcher .lang-dropdown li {
+    width: 100%
+}
+
+.toggle-menu .menu-footer .language-switcher .lang-dropdown li a {
+    padding: 5px 0 10px 15px;
+    display: block;
+    color: #fff;
+    transition: color .2s ease-in-out
+}
+
+.toggle-menu .menu-footer .language-switcher .lang-dropdown li a:hover {
+    color: var(--wp--preset--color--primary)
+}
+
+.contact-sidebar {
+    position: absolute;
+    top: 0;
+    right: -150vw;
+    height: 100vh;
+    width: 500px;
+    transition: right .3s ease-in-out;
+    background-color: var(--wp--preset--color--quaternary);
+    z-index: 99999
+}
+
+@media (max-width:1199px) {
+    .contact-sidebar {
+        border-radius: 30px
+    }
+}
+
+.contact-sidebar .contact-sidebar-inner {
+    overflow-y: auto;
+    overflow-x: clip;
+    height: 100%;
+    padding: 2em 0
+}
+
+@media (min-width:981px) {
+    .contact-sidebar .contact-sidebar-inner {
+        padding: 3.5em 0
+    }
+}
+
+.contact-sidebar .contact-sidebar-inner #close-contact {
+    position: relative;
+    margin-left: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    background-color: var(--wp--preset--color--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1
+}
+
+@media (min-width:981px) {
+    .contact-sidebar .contact-sidebar-inner #close-contact {
+        margin-left: 50px
+    }
+}
+
+.contact-sidebar .contact-sidebar-inner #close-contact .menu-icon {
+    display: block;
+    height: 12px;
+    width: 18px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.contact-sidebar .contact-sidebar-inner #close-contact .menu-icon .bar {
+    width: 100%;
+    height: 2px;
+    background-color: var(--wp--preset--color--black);
+    border-radius: 20px;
+    position: absolute;
+    left: 0
+}
+
+.contact-sidebar .contact-sidebar-inner #close-contact .menu-icon .bar-1 {
+    top: 5px;
+    left: 0;
+    transform: rotate(45deg)
+}
+
+.contact-sidebar .contact-sidebar-inner #close-contact .menu-icon .bar-2 {
+    top: 5px;
+    left: 0;
+    transform: rotate(-45deg)
+}
+
+.contact-sidebar .contact-sidebar-inner .content {
+    padding: 0 30px;
+    position: relative;
+    z-index: 1
+}
+
+@media (min-width:981px) {
+    .contact-sidebar .contact-sidebar-inner .content {
+        padding: 0 50px
+    }
+}
+
+.contact-sidebar .contact-sidebar-inner .content h3 {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 50px 0 20px;
+    text-transform: unset
+}
+
+.contact-sidebar .contact-sidebar-inner .content p {
+    font-size: 16px
+}
+
+.contact-sidebar .contact-sidebar-inner .content .contact-btn {
+    display: inline-block
+}
+
+.contact-sidebar .contact-sidebar-inner .buttons {
+    padding: 0 30px;
+    position: relative;
+    z-index: 1;
+    margin-top: 30px
+}
+
+@media (min-width:981px) {
+    .contact-sidebar .contact-sidebar-inner .buttons {
+        padding: 0 50px;
+        margin-top: 50px
+    }
+}
+
+.contact-sidebar .contact-sidebar-inner .buttons .contact-link {
+    position: relative
+}
+
+.contact-sidebar .contact-sidebar-inner .buttons .contact-link:not(:last-of-type) {
+    margin-bottom: 30px
+}
+
+.contact-sidebar .contact-sidebar-inner .buttons .contact-link .link-wrapper {
+    border-radius: 15px;
+    background-color: var(--wp--preset--color--quinary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 1em
+}
+
+.contact-sidebar .contact-sidebar-inner .buttons .contact-link .link-wrapper:hover .right span {
+    background-image: linear-gradient(20deg, #66d7d1, #66d7d1 70%), linear-gradient(20deg, #66d7d1, #66d7d1 70%)
+}
+
+.contact-sidebar .contact-sidebar-inner .buttons .contact-link .link-wrapper .left h4 {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0;
+    text-transform: unset
+}
+
+.contact-sidebar .contact-sidebar-inner .buttons .contact-link .link-wrapper .left p {
+    font-size: 16px;
+    margin: 0;
+    color: var(--wp--preset--color--tertiary)
+}
+
+.contact-sidebar .contact-sidebar-inner .buttons .contact-link .link-wrapper .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    font-size: 16px
+}
+
+.contact-sidebar .contact-sidebar-inner .buttons .contact-link .link-wrapper .right span {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--wp--preset--color--white);
+    border-radius: 15px;
+    font-size: 14px;
+    background-image: linear-gradient(20deg, #283331, #283331 70%), linear-gradient(30deg, #ffd23f, #f7b1ab 35%, #9fedea 70%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    -webkit-background-clip: content-box, border-box;
+    border: 2px solid transparent;
+    transition: background-image .3s ease-in-out
+}
+
+.contact-sidebar .contact-sidebar-inner .buttons .contact-link .link-wrapper .right span:before {
+    width: auto
+}
+
+.contact-sidebar .contact-sidebar-inner .buttons .contact-link .link-wrapper .right a {
+    color: var(--wp--preset--color--white);
+    text-decoration: none
+}
+
+.contact-sidebar .contact-sidebar-inner .buttons .contact-link .link-wrapper .right a:hover {
+    color: var(--wp--preset--color--white)
+}
+
+.contact-sidebar .contact-sidebar-inner .buttons .contact-link .text-below {
+    text-align: center;
+    display: block
+}
+
+.hamburger-menu {
+    position: relative;
+    z-index: 6;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    background-color: #6984c9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer
+}
+
+.hamburger-menu .menu-title {
+    font-family: var(--wp--preset--font-family--futura-pt);
+    font-weight: 500;
+    color: var(--wp--preset--color--black);
+}
+
+@media (max-width:980px) {
+    .hamburger-menu .menu-title {
+        display: none
+    }
+}
+
+.hamburger-menu .menu-icon {
+    display: block;
+    height: 12px;
+    width: 18px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.hamburger-menu .menu-icon .bar {
+    width: 100%;
+    height: 2px;
+    background-color: var(--wp--preset--color--black);
+    border-radius: 20px;
+    position: absolute;
+    left: 0
+}
+
+.hamburger-menu .menu-icon .bar-1 {
+    top: 0
+}
+
+.hamburger-menu .menu-icon .bar-2 {
+    top: 6px
+}
+
+.site-header {
+    padding: 1.5em 0;
+    height: 150px
+}
+
+.site-header .close-side-menu {
+    background-color: var(--wp--preset--color--black);
+    height: 0;
+    width: 0;
+    position: fixed;
+    cursor: pointer;
+    inset: 0;
+    opacity: 0;
+    z-index: 9;
+    transition: opacity .3s ease-in-out
+}
+
+.site-header:not(.no-shadow):after {
+    content: "";
+    background: linear-gradient(180deg, #1c2826 60%, rgba(28, 40, 38, 0));
+    height: 285px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none
+}
+
+.site-header .container {
+    gap: 1em;
+    align-items: center
+}
+
+.site-header .container .hamburger-menu {
+    order: 1;
+    padding: 0 1em;
+    gap: .5em;
+    width: 100px
+}
+
+.site-header .container .hamburger-menu .menu-icon {
+    position: relative;
+    top: 3px;
+    left: auto;
+    transform: unset
+}
+
+.site-header .container .hamburger-menu .menu-title {
+    font-size: 16px;
+    color: var(--wp--preset--color--black);
+}
+
+.site-header .container .logo {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.site-header .container .menu-container {
+    order: 4;
+    flex-basis: 100%;
+    border-radius: 15px;
+    background-color: var(--wp--preset--color--quinary);
+    border: 1px solid #3e3e3e;
+    position: relative;
+    z-index: 1
+}
+
+.site-header .container .menu-container .top-nav {
+    height: 80px
+}
+
+.site-header .container .menu-container .top-nav .menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 2em
+}
+
+.site-header .container .menu-container .top-nav .menu li {
+    position: relative
+}
+
+.site-header .container .menu-container .top-nav .menu li:before {
+    content: "";
+    display: block;
+    height: 40px;
+    width: 100%;
+    border-radius: 15px;
+    background-image: linear-gradient(20deg, #6984c9, #3857a3 70%), linear-gradient(30deg, #ffd23f, #f7b1ab 35%, #9fedea 70%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    -webkit-background-clip: content-box, border-box;
+    border: 2px solid transparent;
+    opacity: 0;
+    transition: opacity .14s ease-in-out;
+    position: absolute;
+    top: 7px;
+    left: 0
+}
+
+@media (min-width:1300px) {
+    .site-header .container .menu-container .top-nav .menu li:before {
+        top: 16px
+    }
+}
+
+.site-header .container .menu-container .top-nav .menu li.current-menu-ancestor:before,
+.site-header .container .menu-container .top-nav .menu li.current-menu-item:before,
+.site-header .container .menu-container .top-nav .menu li.current-page-item:before,
+.site-header .container .menu-container .top-nav .menu li.current_page_ancestor:before,
+.site-header .container .menu-container .top-nav .menu li:hover:before {
+    opacity: 1
+}
+
+.site-header .container .menu-container .top-nav .menu li a {
+    color: var(--wp--color--preset--white);
+    font-family: var(--wp--preset--font-family--futura-pt);
+    text-decoration: none;
+    transition: color .3s ease-in-out;
+    padding: 1em;
+    font-size: 16px;
+    font-weight: 800;
+    position: relative;
+    display: block;
+    width: 100%
+}
+
+@media (min-width:1300px) {
+    .site-header .container .menu-container .top-nav .menu li a {
+        padding: 1.5em
+    }
+}
+
+.site-header .container .header-contact-button {
+    order: 3
+}
+
+.site-header .container .header-contact-button button {
+    font-size: 16px;
+    gap: .5em;
+    height: 50px;
+    color: var(--wp--preset--color--black);
+    display: flex;
+    align-items: center;
+    border-radius: 15px
+}
+
+.site-header .container .header-contact-button button .icon-double-arrows {
+    font-size: 14px;
+    position: relative;
+    top: 1px
+}
+
+.site-header .container #close-menu-contact {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    background-color: var(--wp--preset--color--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1
+}
+
+.site-header .container #close-menu-contact .menu-icon {
+    display: block;
+    height: 12px;
+    width: 18px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.site-header .container #close-menu-contact .menu-icon .bar {
+    width: 100%;
+    height: 2px;
+    background-color: var(--wp--preset--color--black);
+    border-radius: 20px;
+    position: absolute;
+    left: 0
+}
+
+.site-header .container #close-menu-contact .menu-icon .bar-1 {
+    top: 5px;
+    left: 0;
+    transform: rotate(45deg)
+}
+
+.site-header .container #close-menu-contact .menu-icon .bar-2 {
+    top: 5px;
+    left: 0;
+    transform: rotate(-45deg)
+}
+
+.site-header .container .toggle-menu:after {
+    content: "";
+    height: calc(100% - 4px);
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(20deg, #6984c9, #3857a3 70%), linear-gradient(30deg, #ffd23f, #f7b1ab 35%, #9fedea 70%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    -webkit-background-clip: content-box, border-box;
+    border: 2px solid transparent;
+    border-radius: 0 30px 30px 0
+}
+
+.site-header.is-menu-on .close-side-menu {
+    opacity: .4;
+    width: 100%;
+    height: 100%
+}
+
+.site-header.is-menu-on .toggle-menu {
+    display: block;
+    left: 0;
+    position: fixed
+}
+
+.site-header.is-menu-on .toggle-menu .toggle-menu-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+    padding: 0 30px;
+    margin-bottom: 50px
+}
+
+.site-header.is-menu-on .toggle-menu .top-nav {
+    display: none
+}
+
+.site-header .contact-sidebar:after {
+    content: "";
+    height: calc(100% - 4px);
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(20deg, #6984c9, #3857a3 70%), linear-gradient(30deg, #ffd23f, #f7b1ab 35%, #9fedea 70%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    -webkit-background-clip: content-box, border-box;
+    border: 2px solid transparent;
+    border-radius: 30px 0 0 30px
+}
+
+.site-header.is-contact-on .close-side-menu {
+    opacity: .4;
+    width: 100%;
+    height: 100%
+}
+
+.site-header.is-contact-on .contact-sidebar {
+    right: 0;
+    position: fixed
+}
+
+body.admin-bar .site-header .container .logo {
+    top: 20px
+}
+
+body.admin-bar .toggle-menu {
+    top: 32px
+}
+
+.search-button {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 25px;
+    top: 5px;
+    position: relative
+}
+
+nav .current-menu-ancestor>a,
+nav li.current-menu-item>a,
+nav li.current_page_ancestor>a,
+nav li.current_page_item>a {
+    color: var(--wp--preset--color--primary)
+}

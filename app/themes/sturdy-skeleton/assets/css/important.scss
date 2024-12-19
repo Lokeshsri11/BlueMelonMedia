@@ -1,0 +1,134 @@
+@import "base/config";
+@import "base/mixins";
+
+.container {
+  width: 95%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.section-content {
+  display: block;
+  padding: 0;
+  margin-top: 80px;
+}
+
+:where(body .is-layout-constrained) > * {
+  margin-block-start: 24px;
+}
+
+.wp-block-heading {
+  font-family: futura-pt, "system-ui", "SF Mono", "DejaVu Sans Mono", "Roboto Mono", "Courier New", Courier, monospace;
+}
+
+.site-header{
+  .container {
+    margin: 0 auto;
+    width: 95%;
+    left: 0;
+    top: 0;
+    height: 100% !important;
+    max-width: 1300px;
+  }
+  .menu-item{
+    a{
+      color: white;
+      transition: none!important;
+    }
+  }
+}
+
+@include mid-up {
+  a.btn {
+    padding: 0 1.5em;
+    display: flex;
+    align-items: center;
+    outline: none;
+    margin: 0;
+    justify-content: center;
+  }
+
+  :where(body .is-layout-constrained) > :first-child:first-child {
+    margin-block-start: 0;
+  }
+
+  .site-header {
+    padding: 1.5em 0 0 !important;
+  }
+}
+
+
+.header-text-img-usp{
+  .wp-block-columns{
+    &:first-of-type{
+      @include large-up(){
+        display: flex;
+        gap: 90px !important;
+
+        .wp-block-cover{
+          .wp-block-cover__image-background{
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.header-text-img-usp {
+  .relative-radial-glow {
+    margin-top: 24px;
+    min-height: 500px;
+  }
+
+  .wp-block-cover {
+    position: relative;
+    height: 300px;
+
+    &__inner-container {
+      display: none;
+    }
+
+    img {
+      opacity: 1;
+      position: absolute;
+      top: 0;
+      object-fit: cover;
+      right: 0;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .wp-block-group > p{
+    max-width: 525px;
+  }
+
+  @include small-down() {
+    .mobile-switch {
+      flex-direction: column-reverse;
+    }
+  }
+
+  @include mid-up() {
+    min-height: 600px;
+    .wp-block-columns {
+      display: flex;
+      gap: 60px;
+    }
+    .wp-block-group > p {
+      max-width: 400px !important;
+      margin-left: unset !important;
+      margin-top: 0 !important;
+    }
+    .wp-block-cover {
+      height: 430px;
+      min-height: 430px;
+    }
+    .wp-block-column {
+      flex-basis: 50%;
+      height: 100%;
+    }
+  }
+}

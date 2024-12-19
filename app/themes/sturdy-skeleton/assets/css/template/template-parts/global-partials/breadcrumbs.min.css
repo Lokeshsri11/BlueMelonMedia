@@ -1,0 +1,32 @@
+.section.breadcrumbs {
+    padding: 0
+}
+
+.section.breadcrumbs .breadcrumb {
+    font-size: 16px
+}
+
+.section.breadcrumbs .breadcrumb nav p {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.section.breadcrumbs .breadcrumb nav p .icon-home {
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--wp--preset--color--white)
+}
+
+.section.breadcrumbs .breadcrumb nav p .icon-small-arrow-right {
+    font-size: 13px;
+    line-height: 30px;
+    padding: 0 15px 0 10px
+}
+
+.section.breadcrumbs .breadcrumb nav p a {
+    color: var(--wp--preset--color--white)
+}
+
+.section.breadcrumbs .breadcrumb nav p a:hover {
+    color: var(--wp--preset--color--primary)
+}

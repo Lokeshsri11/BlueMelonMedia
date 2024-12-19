@@ -1,0 +1,12 @@
+.content-image-cta p {
+    font-size: 12px
+}
+
+@media (min-width:768px) {
+    .showcases-slider:has(.wp-block-heading+p) .showcase-slider-block .arrows {
+        top: -240px;
+        right: 0;
+        left: auto;
+        transform: none
+    }
+}

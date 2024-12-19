@@ -1,0 +1,14 @@
+.content-image-cta p {
+    font-size: 12px
+}
+
+.relative-radial-glow {
+    position: relative
+}
+
+.relative-radial-glow .radial-glow {
+    position: absolute;
+    z-index: 0;
+    display: block !important;
+    pointer-events: none
+}

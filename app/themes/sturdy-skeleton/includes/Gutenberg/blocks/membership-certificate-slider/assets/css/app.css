@@ -1,0 +1,253 @@
+.content-image-cta p {
+    font-size: 12px
+}
+
+.templateblock-membership-certificates-slider {
+    position: relative;
+    margin: 20px 0
+}
+
+@media (max-width:479px) {
+    .templateblock-membership-certificates-slider {
+        margin: 20px 0 120px
+    }
+}
+
+.templateblock-membership-certificates-slider .clippath,
+.templateblock-membership-certificates-slider .clippath-duplicate {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background: linear-gradient(#1c2826, #1c2826) padding-box, linear-gradient(-137deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--secondary), var(--wp--preset--color--primary)) border-box;
+    border: 100px solid transparent
+}
+
+@media (min-width:480px) {
+    .templateblock-membership-certificates-slider .clippath,
+    .templateblock-membership-certificates-slider .clippath-duplicate {
+        clip-path: polygon(100% 0, 100% 100%, 0 100%, .00083px 74.40671px, .00083px 74.40671px, .075px 78.17782px, .14341px 81.56963px, .20608px 84.58212px, .26299px 87.2153px, .31416px 89.46916px, .35957px 91.34372px, .39923px 92.83896px, .43314px 93.95489px, .4613px 94.69151px, .48371px 95.04882px, .48853px 95.07934px, .48853px 95.07934px, .49297px 95.08492px, .49704px 95.06556px, .50072px 95.02127px, .50403px 94.95203px, .50696px 94.85786px, .50951px 94.73875px, .51168px 94.5947px, .51348px 94.42571px, .5149px 94.23178px, .51593px 94.01292px, .51675px 93.66438px, .51603px 92.76124px, .51603px 92.76124px, .51516px 92.4472px, .51399px 92.11328px, .51252px 91.75947px, .51074px 91.38576px, .50866px 90.99217px, .50629px 90.57869px, .50361px 90.14531px, .50063px 89.69205px, .49734px 89.2189px, .49376px 88.72586px, .49376px 88.72586px, .70056px 84.97813px, 1.37956px 81.6249px, 2.53075px 78.66616px, 4.15414px 76.10192px, 6.24972px 73.93218px, 8.81749px 72.15694px, 11.85746px 70.7762px, 15.36962px 69.78995px, 19.35398px 69.19821px, 23.81053px 69.00096px, 199.72859px 69.00096px, 199.72859px 69.00096px, 202.97269px 68.73919px, 206.05013px 67.98134px, 208.91974px 66.76859px, 211.54033px 65.14212px, 213.87072px 63.14309px, 215.86975px 60.8127px, 217.49622px 58.19211px, 218.70897px 55.3225px, 219.46682px 52.24506px, 219.72859px 49.00096px, 219.72813px 25.93815px, 219.72813px 25.93815px, 219.73254px 26.02702px, 219.73658px 26.08616px, 219.74023px 26.11557px, 219.74351px 26.11525px, 219.7464px 26.0852px, 219.74892px 26.02542px, 219.75105px 25.93591px, 219.75281px 25.81666px, 219.75419px 25.66769px, 219.75519px 25.48898px, 219.75593px 25.20446px, 219.75601px 24.88068px, 219.75601px 24.88068px, 219.756px 24.8632px, 219.75598px 24.8456px, 219.75597px 24.82788px, 219.75595px 24.81004px, 219.75593px 24.79208px, 219.75591px 24.77399px, 219.75589px 24.75578px, 219.75586px 24.73745px, 219.75584px 24.719px, 219.75581px 24.70042px, 219.75495px 24.30318px, 219.75495px 24.30318px, 219.7539px 23.97311px, 219.75249px 23.6155px, 219.75073px 23.23034px, 219.74862px 22.81764px, 219.74616px 22.37739px, 219.74335px 21.9096px, 219.74019px 21.41426px, 219.73667px 20.89138px, 219.7328px 20.34095px, 219.72859px 19.76297px, 219.72859px 19.76297px, 219.89739px 16.34733px, 220.45694px 13.25552px, 221.40722px 10.48753px, 222.74825px 8.04336px, 224.48002px 5.92301px, 226.60253px 4.12649px, 229.11578px 2.6538px, 232.01977px 1.50493px, 235.3145px .67988px, 238.99997px .17866px)
+    }
+}
+
+@media (max-width:479px) {
+    .templateblock-membership-certificates-slider .clippath,
+    .templateblock-membership-certificates-slider .clippath-duplicate {
+        clip-path: none
+    }
+}
+
+.templateblock-membership-certificates-slider .clippath-duplicate {
+    background: var(--wp--preset--color--background);
+    top: 3px;
+    left: 3px;
+    width: 98%;
+    height: 98%
+}
+
+@media (min-width:480px) {
+    .templateblock-membership-certificates-slider .clippath-duplicate {
+        clip-path: polygon(100% 0, 100% 100%, 0 100%, .00083px 74.40671px, .00083px 74.40671px, .075px 78.17782px, .14341px 81.56963px, .20608px 84.58212px, .26299px 87.2153px, .31416px 89.46916px, .35957px 91.34372px, .39923px 92.83896px, .43314px 93.95489px, .4613px 94.69151px, .48371px 95.04882px, .48853px 95.07934px, .48853px 95.07934px, .49297px 95.08492px, .49704px 95.06556px, .50072px 95.02127px, .50403px 94.95203px, .50696px 94.85786px, .50951px 94.73875px, .51168px 94.5947px, .51348px 94.42571px, .5149px 94.23178px, .51593px 94.01292px, .51675px 93.66438px, .51603px 92.76124px, .51603px 92.76124px, .51516px 92.4472px, .51399px 92.11328px, .51252px 91.75947px, .51074px 91.38576px, .50866px 90.99217px, .50629px 90.57869px, .50361px 90.14531px, .50063px 89.69205px, .49734px 89.2189px, .49376px 88.72586px, .49376px 88.72586px, .70056px 84.97813px, 1.37956px 81.6249px, 2.53075px 78.66616px, 4.15414px 76.10192px, 6.24972px 73.93218px, 8.81749px 72.15694px, 11.85746px 70.7762px, 15.36962px 69.78995px, 19.35398px 69.19821px, 23.81053px 69.00096px, 199.72859px 69.00096px, 199.72859px 69.00096px, 202.97269px 68.73919px, 206.05013px 67.98134px, 208.91974px 66.76859px, 211.54033px 65.14212px, 213.87072px 63.14309px, 215.86975px 60.8127px, 217.49622px 58.19211px, 218.70897px 55.3225px, 219.46682px 52.24506px, 219.72859px 49.00096px, 219.72813px 25.93815px, 219.72813px 25.93815px, 219.73254px 26.02702px, 219.73658px 26.08616px, 219.74023px 26.11557px, 219.74351px 26.11525px, 219.7464px 26.0852px, 219.74892px 26.02542px, 219.75105px 25.93591px, 219.75281px 25.81666px, 219.75419px 25.66769px, 219.75519px 25.48898px, 219.75593px 25.20446px, 219.75601px 24.88068px, 219.75601px 24.88068px, 219.756px 24.8632px, 219.75598px 24.8456px, 219.75597px 24.82788px, 219.75595px 24.81004px, 219.75593px 24.79208px, 219.75591px 24.77399px, 219.75589px 24.75578px, 219.75586px 24.73745px, 219.75584px 24.719px, 219.75581px 24.70042px, 219.75495px 24.30318px, 219.75495px 24.30318px, 219.7539px 23.97311px, 219.75249px 23.6155px, 219.75073px 23.23034px, 219.74862px 22.81764px, 219.74616px 22.37739px, 219.74335px 21.9096px, 219.74019px 21.41426px, 219.73667px 20.89138px, 219.7328px 20.34095px, 219.72859px 19.76297px, 219.72859px 19.76297px, 219.89739px 16.34733px, 220.45694px 13.25552px, 221.40722px 10.48753px, 222.74825px 8.04336px, 224.48002px 5.92301px, 226.60253px 4.12649px, 229.11578px 2.6538px, 232.01977px 1.50493px, 235.3145px .67988px, 238.99997px .17866px);
+        border-radius: 0 25px 25px 25px;
+        top: 3px;
+        left: 3px;
+        width: 99.4%;
+        height: 98%
+    }
+}
+
+.templateblock-membership-certificates-slider .logo-slider {
+    transition-timing-function: linear
+}
+
+.templateblock-membership-certificates-slider .button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2 !important;
+    background: var(--wp--preset--color--tertiary);
+    width: 200px
+}
+
+.templateblock-membership-certificates-slider .button .btn {
+    padding: 0 !important;
+    background: var(--wp--preset--color--tertiary) !important
+}
+
+@media (max-width:479px) {
+    .templateblock-membership-certificates-slider .button {
+        left: 0;
+        right: 0;
+        bottom: -80px;
+        top: inherit;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+.templateblock-membership-certificates-slider .membership-certificate-sliderblock-wrapper {
+    padding: 50px 100px 160px 0;
+    overflow: hidden
+}
+
+@media (min-width:480px) {
+    .templateblock-membership-certificates-slider .membership-certificate-sliderblock-wrapper {
+        padding: 110px 100px 160px 0
+    }
+}
+
+@media (min-width:768px) {
+    .templateblock-membership-certificates-slider .membership-certificate-sliderblock-wrapper {
+        padding: 120px 100px 230px 0
+    }
+}
+
+.templateblock-membership-certificates-slider .membership-certificate-sliderblock-wrapper .membership-certificate-sliderblock .memberships-certificates-block .membership-certificate-wrapper.tns-item.tns-slide-cloned[aria-hidden=true] a,
+.templateblock-membership-certificates-slider .membership-certificate-sliderblock-wrapper .membership-certificate-sliderblock .memberships-certificates-block .membership-certificate-wrapper.tns-item[aria-hidden=true] a {
+    display: none
+}
+
+.templateblock-membership-certificates-slider .pacman {
+    height: 120px;
+    width: 120px;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    z-index: 3;
+    left: 30px
+}
+
+@media (min-width:768px) {
+    .templateblock-membership-certificates-slider .pacman {
+        height: 180px;
+        width: 180px;
+        left: 50px
+    }
+}
+
+.templateblock-membership-certificates-slider .pacman .container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden
+}
+
+.templateblock-membership-certificates-slider .pacman .container .head,
+.templateblock-membership-certificates-slider .pacman .container .mouth {
+    height: 50%;
+    width: 100%;
+    position: relative;
+    z-index: 1
+}
+
+.templateblock-membership-certificates-slider .pacman .container .head {
+    background-color: var(--wp--preset--color--primary);
+    animation: rotate1 both infinite alternate .5s linear;
+    transform-origin: bottom;
+    border-top-left-radius: 400px;
+    border-top-right-radius: 400px
+}
+
+.templateblock-membership-certificates-slider .pacman .container .mouth {
+    background-color: var(--wp--preset--color--primary);
+    animation: rotate2 both infinite alternate .5s linear;
+    transform-origin: top;
+    border-bottom-left-radius: 400px;
+    border-bottom-right-radius: 400px
+}
+
+.templateblock-membership-certificates-slider .membership-certificate-sliderblock {
+    position: absolute;
+    z-index: 2;
+    max-width: 91%;
+    overflow: hidden;
+    right: 4px;
+    display: flex;
+    gap: 20px;
+    left: 90px
+}
+
+@media (min-width:768px) {
+    .templateblock-membership-certificates-slider .membership-certificate-sliderblock {
+        padding-top: 10px;
+        left: 120px
+    }
+}
+
+.templateblock-membership-certificates-slider .membership-certificate-sliderblock .memberships-certificates-block {
+    display: flex;
+    gap: 20px;
+    white-space: nowrap
+}
+
+.templateblock-membership-certificates-slider .membership-certificate-sliderblock .memberships-certificates-block .membership-certificate-wrapper {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 15px
+}
+
+@media (min-width:768px) {
+    .templateblock-membership-certificates-slider .membership-certificate-sliderblock .memberships-certificates-block .membership-certificate-wrapper {
+        width: 160px;
+        height: 160px
+    }
+}
+
+.templateblock-membership-certificates-slider .membership-certificate-sliderblock .memberships-certificates-block .membership-certificate-wrapper .slider-logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.templateblock-membership-certificates-slider .membership-certificate-sliderblock .memberships-certificates-block .membership-certificate-wrapper .slider-logo img {
+    object-fit: contain
+}
+
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(-45deg)
+    }
+}
+
+@keyframes rotate2 {
+    0% {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(45deg)
+    }
+}
+
+.templateblock-membership-certificates-slider.is-style-pink .button {
+    background: var(--wp--preset--color--secondary)
+}
+
+.templateblock-membership-certificates-slider.is-style-pink .button .btn {
+    background: var(--wp--preset--color--secondary) !important
+}
+
+.templateblock-membership-certificates-slider.is-style-blue .button {
+    background: var(--wp--preset--color--tertiary)
+}
+
+.templateblock-membership-certificates-slider.is-style-blue .button .btn {
+    background: var(--wp--preset--color--tertiary) !important
+}
+
+.templateblock-membership-certificates-slider.is-style-yellow .button {
+    background: var(--wp--preset--color--primary)
+}
+
+.templateblock-membership-certificates-slider.is-style-yellow .button .btn {
+    background: var(--wp--preset--color--primary) !important
+}

@@ -1,0 +1,829 @@
+ <section
+                    class="wp-block-group showcases-slider is-layout-constrained wp-block-group-is-layout-constrained"
+                    style="margin-top:var(--wp--preset--spacing--xl);margin-bottom:var(--wp--preset--spacing--xl)">
+                    <style>
+                        #block_6ce5db04b491353063fc94a894f4fb4c .radial-glow {
+                            background: radial-gradient(closest-side, rgba(102, 215, 209, 0.2), rgba(255, 0, 0, 0));
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(calc(-50% + 0%), calc(-50% + 11%));
+                            width: 2249px;
+                            position: absolute;
+                            display: none;
+                            height: 1239px;
+                        }
+
+                        @media (max-width: 981px) {
+                            #block_6ce5db04b491353063fc94a894f4fb4c .radial-glow {
+                                transform: translate(calc(-50% + 0%), calc(-50% + 0%));
+                                width: 500px;
+                                height: 500px;
+                            }
+
+                            .relative-radial-glow {
+                                position: relative;
+                            }
+                    </style>
+                    <div class="relative-radial-glow" id="block_6ce5db04b491353063fc94a894f4fb4c">
+                        <span class="radial-glow"></span>
+                        <div class="acf-innerblocks-container">
+
+                            <h2 class="wp-block-heading">Werk waar we <br><mark
+                                    style="background-color:rgba(0, 0, 0, 0)"
+                                    class="has-inline-color has-tertiary-color">trots op zijn</mark> </h2>
+
+
+
+                            <p class="has-normal-font-size">SDIM werkt dagelijks voor een scala aan klanten aan de meest
+                                uiteenlopende <br>opdrachten: van creatieve brandingtrajecten tot slimme datagedreven
+                                campagnes. <br>Bekijk hier hoe wij onze opdrachtgevers hebben geholpen hun
+                                doelstellingen
+                                te behalen.&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+
+
+                            <div class="showcase-slider-block">
+                                <div class="arrows">
+                                    <button type="button" data-controls="prev" tabindex="-1" aria-controls="tns18"><span
+                                            class="icon-double-arrows left"></span></button>
+                                    <button type="button" data-controls="next" tabindex="-1" aria-controls="tns18"><span
+                                            class="icon-double-arrows right"></span></button>
+                                </div>
+
+                                <div class="cases">
+
+                                    <div class="case-wrapper">
+                                        <div class="case mood">
+                                            <div class="inner">
+                                                <div class="top">
+                                                    <div class="image mood">
+                                                        <img decoding="async" width="480" height="480"
+                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%20480'%3E%3C/svg%3E"
+                                                            class="attachment-480p size-480p wp-post-image"
+                                                            alt="Urban Iki fietsstoel"
+                                                            data-lazy-srcset="https://www.sdim.nl/app/uploads/2024/06/urban-iki-2-480x480.png 480w, https://www.sdim.nl/app/uploads/2024/06/urban-iki-2-300x300.png 300w, https://www.sdim.nl/app/uploads/2024/06/urban-iki-2-150x150.png 150w, https://www.sdim.nl/app/uploads/2024/06/urban-iki-2-240x240.png 240w, https://www.sdim.nl/app/uploads/2024/06/urban-iki-2-360x360.png 360w, https://www.sdim.nl/app/uploads/2024/06/urban-iki-2.png 700w"
+                                                            data-lazy-sizes="(max-width: 480px) 100vw, 480px"
+                                                            data-lazy-src="https://www.sdim.nl/app/uploads/2024/06/urban-iki-2-480x480.png" /><noscript><img
+                                                                decoding="async" width="480" height="480"
+                                                                src="https://www.sdim.nl/app/uploads/2024/06/urban-iki-2-480x480.png"
+                                                                class="attachment-480p size-480p wp-post-image"
+                                                                alt="Urban Iki fietsstoel"
+                                                                srcset="https://www.sdim.nl/app/uploads/2024/06/urban-iki-2-480x480.png 480w, https://www.sdim.nl/app/uploads/2024/06/urban-iki-2-300x300.png 300w, https://www.sdim.nl/app/uploads/2024/06/urban-iki-2-150x150.png 150w, https://www.sdim.nl/app/uploads/2024/06/urban-iki-2-240x240.png 240w, https://www.sdim.nl/app/uploads/2024/06/urban-iki-2-360x360.png 360w, https://www.sdim.nl/app/uploads/2024/06/urban-iki-2.png 700w"
+                                                                sizes="(max-width: 480px) 100vw, 480px" /></noscript>
+                                                    </div>
+
+                                                    <span class="icon-double-arrows"></span>
+                                                </div>
+
+                                                <div class="content">
+
+                                                    <h3 class="title">
+                                                        <a href="https://www.sdim.nl/cases/urban-iki-ab-test-case/"
+                                                            class="overlay-link">
+                                                            Hoe Urban Iki met A/B testen erachter kwam of en vanaf welk
+                                                            bedrag ze gratis verzending moeten bieden </a>
+                                                    </h3>
+
+                                                    <div class="excerpt">
+                                                        Door gebruik te maken van A/B testen via Google Optimize
+                                                        onderzochten Urban Iki en SDIM vanaf welk bedrag er gratis
+                                                        verzending moest zijn voor klanten om opbrengst, transacties en
+                                                        winst te maximaliseren. Hoe Urban Iki en SDIM dit samen getest
+                                                        hebben en
+                                                        tot het optimale punt zijn gekomen vanaf waar gratis verzending
+                                                        is, staat hier verder uitgelegd.  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="case-wrapper">
+                                        <div class="case mockup">
+                                            <div class="inner">
+                                                <div class="top">
+                                                    <div class="image mockup">
+                                                        <img decoding="async" width="480" height="724"
+                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%20724'%3E%3C/svg%3E"
+                                                            class="attachment-480p size-480p wp-post-image"
+                                                            alt="De Nationale Suiker Challenge van Diabetes Fonds"
+                                                            data-lazy-srcset="https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-480x724.png 480w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-199x300.png 199w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-679x1024.png 679w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-768x1159.png 768w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-1018x1536.png 1018w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-1357x2048.png 1357w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-240x362.png 240w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-360x543.png 360w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-720x1086.png 720w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-1024x1545.png 1024w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge.png 1726w"
+                                                            data-lazy-sizes="(max-width: 480px) 100vw, 480px"
+                                                            data-lazy-src="https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-480x724.png" /><noscript><img
+                                                                decoding="async" width="480" height="724"
+                                                                src="https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-480x724.png"
+                                                                class="attachment-480p size-480p wp-post-image"
+                                                                alt="De Nationale Suiker Challenge van Diabetes Fonds"
+                                                                srcset="https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-480x724.png 480w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-199x300.png 199w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-679x1024.png 679w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-768x1159.png 768w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-1018x1536.png 1018w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-1357x2048.png 1357w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-240x362.png 240w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-360x543.png 360w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-720x1086.png 720w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge-1024x1545.png 1024w, https://www.sdim.nl/app/uploads/2024/09/diabetes-fonds-suikerchallenge.png 1726w"
+                                                                sizes="(max-width: 480px) 100vw, 480px" /></noscript>
+                                                    </div>
+
+                                                    <span class="icon-double-arrows"></span>
+                                                </div>
+
+                                                <div class="content">
+
+                                                    <h3 class="title">
+                                                        <a href="https://www.sdim.nl/cases/nationale-suiker-challenge-diabetes-fonds/"
+                                                            class="overlay-link">
+                                                            Case Nationale Suiker Challenge &#8211; Diabetes Fonds </a>
+                                                    </h3>
+
+                                                    <div class="excerpt">
+                                                        In de digitale wereld is het voor NGO&#8217;s essentieel om
+                                                        online leads te werven. Dit vergroot hun bereik, trekt nieuwe
+                                                        donateurs en vrijwilligers aan, en versterkt hun impact. Door
+                                                        digitale marketingstrategieën te gebruiken, kunnen NGO&#8217;s
+                                                        efficiënt
+                                                        en kosteneffectief communiceren met een wereldwijd publiek.
+                                                        Bovendien helpt het verzamelen van data bij het optimaliseren
+                                                        van campagnes, waardoor&#8230; </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="case-wrapper">
+                                        <div class="case mood">
+                                            <div class="inner">
+                                                <div class="top">
+                                                    <div class="image mood">
+                                                        <img decoding="async" width="480" height="480"
+                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%20480'%3E%3C/svg%3E"
+                                                            class="attachment-480p size-480p wp-post-image"
+                                                            alt="Burgerbar social media case fotoshoot"
+                                                            data-lazy-srcset="https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-480x480.jpg 480w, https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-300x300.jpg 300w, https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-1024x1024.jpg 1024w, https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-150x150.jpg 150w, https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-768x768.jpg 768w, https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-1536x1536.jpg 1536w, https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-2048x2048.jpg 2048w, https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-240x240.jpg 240w, https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-360x360.jpg 360w, https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-720x720.jpg 720w"
+                                                            data-lazy-sizes="(max-width: 480px) 100vw, 480px"
+                                                            data-lazy-src="https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-480x480.jpg" /><noscript><img
+                                                                decoding="async" width="480" height="480"
+                                                                src="https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-480x480.jpg"
+                                                                class="attachment-480p size-480p wp-post-image"
+                                                                alt="Burgerbar social media case fotoshoot"
+                                                                srcset="https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-480x480.jpg 480w, https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-300x300.jpg 300w, https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-1024x1024.jpg 1024w, https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-150x150.jpg 150w, https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-768x768.jpg 768w, https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-1536x1536.jpg 1536w, https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-2048x2048.jpg 2048w, https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-240x240.jpg 240w, https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-360x360.jpg 360w, https://www.sdim.nl/app/uploads/2024/05/burgerbar-marketing-shoot-720x720.jpg 720w"
+                                                                sizes="(max-width: 480px) 100vw, 480px" /></noscript>
+                                                    </div>
+
+                                                    <span class="icon-double-arrows"></span>
+                                                </div>
+
+                                                <div class="content">
+
+                                                    <h3 class="title">
+                                                        <a href="https://www.sdim.nl/cases/burgerbar/"
+                                                            class="overlay-link">
+                                                            Burgerbar social media campagne </a>
+                                                    </h3>
+
+                                                    <div class="excerpt">
+                                                        In 2023 groeide het bereik van Burgerbar op Instagram met 648%
+                                                        ten opzichte van 2022. Op Facebook was dit 260%. Lees welke
+                                                        strategische keuzes SDIM heeft gezet om deze groei te bereiken.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="case-wrapper">
+                                        <div class="case mood">
+                                            <div class="inner">
+                                                <div class="top">
+                                                    <div class="image mood">
+                                                        <img decoding="async" width="480" height="319"
+                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%20319'%3E%3C/svg%3E"
+                                                            class="attachment-480p size-480p wp-post-image"
+                                                            alt="Badkamer van Voordelig Design Sanitair"
+                                                            data-lazy-srcset="https://www.sdim.nl/app/uploads/2024/06/vds-badkamer-480x319.jpeg 480w, https://www.sdim.nl/app/uploads/2024/06/vds-badkamer-300x200.jpeg 300w, https://www.sdim.nl/app/uploads/2024/06/vds-badkamer-240x160.jpeg 240w, https://www.sdim.nl/app/uploads/2024/06/vds-badkamer-360x240.jpeg 360w, https://www.sdim.nl/app/uploads/2024/06/vds-badkamer-720x479.jpeg 720w, https://www.sdim.nl/app/uploads/2024/06/vds-badkamer.jpeg 768w"
+                                                            data-lazy-sizes="(max-width: 480px) 100vw, 480px"
+                                                            data-lazy-src="https://www.sdim.nl/app/uploads/2024/06/vds-badkamer-480x319.jpeg" /><noscript><img
+                                                                decoding="async" width="480" height="319"
+                                                                src="https://www.sdim.nl/app/uploads/2024/06/vds-badkamer-480x319.jpeg"
+                                                                class="attachment-480p size-480p wp-post-image"
+                                                                alt="Badkamer van Voordelig Design Sanitair"
+                                                                srcset="https://www.sdim.nl/app/uploads/2024/06/vds-badkamer-480x319.jpeg 480w, https://www.sdim.nl/app/uploads/2024/06/vds-badkamer-300x200.jpeg 300w, https://www.sdim.nl/app/uploads/2024/06/vds-badkamer-240x160.jpeg 240w, https://www.sdim.nl/app/uploads/2024/06/vds-badkamer-360x240.jpeg 360w, https://www.sdim.nl/app/uploads/2024/06/vds-badkamer-720x479.jpeg 720w, https://www.sdim.nl/app/uploads/2024/06/vds-badkamer.jpeg 768w"
+                                                                sizes="(max-width: 480px) 100vw, 480px" /></noscript>
+                                                    </div>
+
+                                                    <span class="icon-double-arrows"></span>
+                                                </div>
+
+                                                <div class="content">
+
+                                                    <h3 class="title">
+                                                        <a href="https://www.sdim.nl/cases/voordelig-design-sanitair/"
+                                                            class="overlay-link">
+                                                            Hoe Voordelig Design Sanitair de online sanitair markt
+                                                            verovert </a>
+                                                    </h3>
+
+                                                    <div class="excerpt">
+                                                        Voordelig Design Sanitair levert hoogwaardig sanitair
+                                                        rechtstreeks aan consumenten tegen scherpe prijzen. Door
+                                                        tussenpartijen uit te schakelen, biedt het kwaliteitsproducten
+                                                        in het lage en middensegment. SDIM ondersteunt als digital
+                                                        marketing partner
+                                                        de online groeiambitie van het bedrijf. </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="case-wrapper">
+                                        <div class="case mockup">
+                                            <div class="inner">
+                                                <div class="top">
+                                                    <div class="image mockup">
+                                                        <img decoding="async" width="480" height="724"
+                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%20724'%3E%3C/svg%3E"
+                                                            class="attachment-480p size-480p wp-post-image"
+                                                            alt="Mom In Balance case"
+                                                            data-lazy-srcset="https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-480x724.png 480w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-199x300.png 199w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-679x1024.png 679w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-768x1159.png 768w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-1018x1536.png 1018w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-1357x2048.png 1357w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-240x362.png 240w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-360x543.png 360w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-720x1086.png 720w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-1024x1545.png 1024w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon.png 1726w"
+                                                            data-lazy-sizes="(max-width: 480px) 100vw, 480px"
+                                                            data-lazy-src="https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-480x724.png" /><noscript><img
+                                                                decoding="async" width="480" height="724"
+                                                                src="https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-480x724.png"
+                                                                class="attachment-480p size-480p wp-post-image"
+                                                                alt="Mom In Balance case"
+                                                                srcset="https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-480x724.png 480w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-199x300.png 199w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-679x1024.png 679w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-768x1159.png 768w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-1018x1536.png 1018w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-1357x2048.png 1357w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-240x362.png 240w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-360x543.png 360w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-720x1086.png 720w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon-1024x1545.png 1024w, https://www.sdim.nl/app/uploads/2024/07/mom-in-balance-case-telefoon.png 1726w"
+                                                                sizes="(max-width: 480px) 100vw, 480px" /></noscript>
+                                                    </div>
+
+                                                    <span class="icon-double-arrows"></span>
+                                                </div>
+
+                                                <div class="content">
+
+                                                    <h3 class="title">
+                                                        <a href="https://www.sdim.nl/cases/mom-in-balance-digital-pr/"
+                                                            class="overlay-link">
+                                                            Hoe SDIM met Digital PR het merk Mom in Balance versterkte
+                                                        </a>
+                                                    </h3>
+
+                                                    <div class="excerpt">
+                                                        Mom in Balance gelooft dat vrouwen makkelijker de juiste keuzes
+                                                        maken, hun persoonlijke ambities kunnen waarmaken én meer kunnen
+                                                        genieten van hun gezin als ze fysiek en mentaal goed in hun vel
+                                                        zitten. Om zo veel mogelijk (aanstaande) moeders in Nederland
+                                                        en daarbuiten aan een sterke, energieke basis te helpen, vroegen
+                                                        ze SDIM om hulp&#8230;. </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="case-wrapper">
+                                        <div class="case mood">
+                                            <div class="inner">
+                                                <div class="top">
+                                                    <div class="image mood">
+                                                        <img decoding="async" width="420" height="420"
+                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20420%20420'%3E%3C/svg%3E"
+                                                            class="attachment-480p size-480p wp-post-image" alt=""
+                                                            data-lazy-srcset="https://www.sdim.nl/app/uploads/2024/02/nedstar1.png 420w, https://www.sdim.nl/app/uploads/2024/02/nedstar1-300x300.png 300w, https://www.sdim.nl/app/uploads/2024/02/nedstar1-150x150.png 150w, https://www.sdim.nl/app/uploads/2024/02/nedstar1-240x240.png 240w, https://www.sdim.nl/app/uploads/2024/02/nedstar1-360x360.png 360w"
+                                                            data-lazy-sizes="(max-width: 420px) 100vw, 420px"
+                                                            data-lazy-src="https://www.sdim.nl/app/uploads/2024/02/nedstar1.png" /><noscript><img
+                                                                decoding="async" width="420" height="420"
+                                                                src="https://www.sdim.nl/app/uploads/2024/02/nedstar1.png"
+                                                                class="attachment-480p size-480p wp-post-image" alt=""
+                                                                srcset="https://www.sdim.nl/app/uploads/2024/02/nedstar1.png 420w, https://www.sdim.nl/app/uploads/2024/02/nedstar1-300x300.png 300w, https://www.sdim.nl/app/uploads/2024/02/nedstar1-150x150.png 150w, https://www.sdim.nl/app/uploads/2024/02/nedstar1-240x240.png 240w, https://www.sdim.nl/app/uploads/2024/02/nedstar1-360x360.png 360w"
+                                                                sizes="(max-width: 420px) 100vw, 420px" /></noscript>
+                                                    </div>
+
+                                                    <span class="icon-double-arrows"></span>
+                                                </div>
+
+                                                <div class="content">
+
+                                                    <h3 class="title">
+                                                        <a href="https://www.sdim.nl/cases/nedstar/"
+                                                            class="overlay-link">
+                                                            SEO strategie zorgt voor 1000% stijging in organisch verkeer
+                                                            voor Nedstar </a>
+                                                    </h3>
+
+                                                    <div class="excerpt">
+                                                        SDIM ontwikkelde een nieuwe SEO-strategie om Nedstar&#8217;s
+                                                        organische vindbaarheid, vooral internationaal, te verbeteren.
+                                                        De strategie richtte zich op het opbouwen van thought leadership
+                                                        en topical authority voor Nedstar in hun niche. De doelen waren
+                                                        meer organische conversies, betere vindbaarheid hoger in de
+                                                        zoekfunnel en Nedstar de #1 autoriteit op biologische alcohol te
+                                                        maken. Als resultaat steeg het organische verkeer met maar
+                                                        liefst 1000%, waarbij
+                                                        Nedstar beter vindbaar werd voor transactionele zoekwoorden en
+                                                        hun expertise kon uitdragen.
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="case-wrapper">
+                                        <div class="case mood">
+                                            <div class="inner">
+                                                <div class="top">
+                                                    <div class="image mood">
+                                                        <img decoding="async" width="480" height="329"
+                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%20329'%3E%3C/svg%3E"
+                                                            class="attachment-480p size-480p wp-post-image" alt=""
+                                                            data-lazy-srcset="https://www.sdim.nl/app/uploads/2024/06/touch-tell-sell-480x329.png 480w, https://www.sdim.nl/app/uploads/2024/06/touch-tell-sell-300x206.png 300w, https://www.sdim.nl/app/uploads/2024/06/touch-tell-sell-1024x702.png 1024w, https://www.sdim.nl/app/uploads/2024/06/touch-tell-sell-768x527.png 768w, https://www.sdim.nl/app/uploads/2024/06/touch-tell-sell-240x165.png 240w, https://www.sdim.nl/app/uploads/2024/06/touch-tell-sell-360x247.png 360w, https://www.sdim.nl/app/uploads/2024/06/touch-tell-sell-720x494.png 720w, https://www.sdim.nl/app/uploads/2024/06/touch-tell-sell.png 1285w"
+                                                            data-lazy-sizes="(max-width: 480px) 100vw, 480px"
+                                                            data-lazy-src="https://www.sdim.nl/app/uploads/2024/06/touch-tell-sell-480x329.png" /><noscript><img
+                                                                decoding="async" width="480" height="329"
+                                                                src="https://www.sdim.nl/app/uploads/2024/06/touch-tell-sell-480x329.png"
+                                                                class="attachment-480p size-480p wp-post-image" alt=""
+                                                                srcset="https://www.sdim.nl/app/uploads/2024/06/touch-tell-sell-480x329.png 480w, https://www.sdim.nl/app/uploads/2024/06/touch-tell-sell-300x206.png 300w, https://www.sdim.nl/app/uploads/2024/06/touch-tell-sell-1024x702.png 1024w, https://www.sdim.nl/app/uploads/2024/06/touch-tell-sell-768x527.png 768w, https://www.sdim.nl/app/uploads/2024/06/touch-tell-sell-240x165.png 240w, https://www.sdim.nl/app/uploads/2024/06/touch-tell-sell-360x247.png 360w, https://www.sdim.nl/app/uploads/2024/06/touch-tell-sell-720x494.png 720w, https://www.sdim.nl/app/uploads/2024/06/touch-tell-sell.png 1285w"
+                                                                sizes="(max-width: 480px) 100vw, 480px" /></noscript>
+                                                    </div>
+
+                                                    <span class="icon-double-arrows"></span>
+                                                </div>
+
+                                                <div class="content">
+
+                                                    <h3 class="title">
+                                                        <a href="https://www.sdim.nl/cases/sanquin-arbeidsmarktcampagne/"
+                                                            class="overlay-link">
+                                                            Hoe Sanquin met een full funnel Arbeidsmarktcampagne een YOY
+                                                            uplift in sollicitaties realiseerde van 23% </a>
+                                                    </h3>
+
+                                                    <div class="excerpt">
+                                                        Sanquin staat, volgens een onderzoek van Randstad, in de top 3
+                                                        van beste en meest aantrekkelijke werkgevers van Nederland. Toch
+                                                        heeft ook Sanquin moeite met het vervullen van functies binnen
+                                                        de IT en Research/Laboratorium sector. SDIM draaide een full
+                                                        funnel vacaturemarketing campagne gericht op deze sector en
+                                                        Sanquin zag een YOY uplift van 23% in sollicitaties. Meer weten?
+                                                        Lees het in deze case!
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="case-wrapper">
+                                        <div class="case mood">
+                                            <div class="inner">
+                                                <div class="top">
+                                                    <div class="image mood">
+                                                        <img decoding="async" width="480" height="268"
+                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%20268'%3E%3C/svg%3E"
+                                                            class="attachment-480p size-480p wp-post-image"
+                                                            alt="Surfana campagne"
+                                                            data-lazy-srcset="https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster-480x268.jpg 480w, https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster-300x167.jpg 300w, https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster-1024x572.jpg 1024w, https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster-768x429.jpg 768w, https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster-1536x857.jpg 1536w, https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster-240x134.jpg 240w, https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster-360x201.jpg 360w, https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster-720x402.jpg 720w, https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster.jpg 1546w"
+                                                            data-lazy-sizes="(max-width: 480px) 100vw, 480px"
+                                                            data-lazy-src="https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster-480x268.jpg" /><noscript><img
+                                                                decoding="async" width="480" height="268"
+                                                                src="https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster-480x268.jpg"
+                                                                class="attachment-480p size-480p wp-post-image"
+                                                                alt="Surfana campagne"
+                                                                srcset="https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster-480x268.jpg 480w, https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster-300x167.jpg 300w, https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster-1024x572.jpg 1024w, https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster-768x429.jpg 768w, https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster-1536x857.jpg 1536w, https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster-240x134.jpg 240w, https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster-360x201.jpg 360w, https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster-720x402.jpg 720w, https://www.sdim.nl/app/uploads/2024/05/surfana-abri-poster.jpg 1546w"
+                                                                sizes="(max-width: 480px) 100vw, 480px" /></noscript>
+                                                    </div>
+
+                                                    <span class="icon-double-arrows"></span>
+                                                </div>
+
+                                                <div class="content">
+
+                                                    <h3 class="title">
+                                                        <a href="https://www.sdim.nl/cases/surfana/"
+                                                            class="overlay-link">
+                                                            Campagne concept Surfana: Choose the good life </a>
+                                                    </h3>
+
+                                                    <div class="excerpt">
+                                                        Surfana wil de bekendheid van hun merk vergroten en de surf
+                                                        lifestyle toegankelijk maken voor iedereen. Ze vroegen SDIM om
+                                                        een creatief concept voor hun social mediakanalen te
+                                                        ontwikkelen. De campagne speelde in op de behoefte van mensen om
+                                                        aan de dagelijkse
+                                                        sleur te ontsnappen en presenteerde surfen als een
+                                                        aantrekkelijke aanvulling op het hectische leven. Door slimme
+                                                        copylines te combineren met bestaand beeldmateriaal, bereikte de
+                                                        campagne meer dan een half
+                                                        miljoen mensen. Dit leidde tot een significante stijging in
+                                                        boekingen voor Surfana&#8217;s camps en lessen. </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="case-wrapper">
+                                        <div class="case mood">
+                                            <div class="inner">
+                                                <div class="top">
+                                                    <div class="image mood">
+                                                        <img decoding="async" width="480" height="301"
+                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%20301'%3E%3C/svg%3E"
+                                                            class="attachment-480p size-480p wp-post-image"
+                                                            alt="UNHCR advertenties"
+                                                            data-lazy-srcset="https://www.sdim.nl/app/uploads/2023/08/unhcr-advertentites-480x301.png 480w, https://www.sdim.nl/app/uploads/2023/08/unhcr-advertentites-300x188.png 300w, https://www.sdim.nl/app/uploads/2023/08/unhcr-advertentites-1024x642.png 1024w, https://www.sdim.nl/app/uploads/2023/08/unhcr-advertentites-768x481.png 768w, https://www.sdim.nl/app/uploads/2023/08/unhcr-advertentites-240x150.png 240w, https://www.sdim.nl/app/uploads/2023/08/unhcr-advertentites-360x226.png 360w, https://www.sdim.nl/app/uploads/2023/08/unhcr-advertentites-720x451.png 720w, https://www.sdim.nl/app/uploads/2023/08/unhcr-advertentites.png 1466w"
+                                                            data-lazy-sizes="(max-width: 480px) 100vw, 480px"
+                                                            data-lazy-src="https://www.sdim.nl/app/uploads/2023/08/unhcr-advertentites-480x301.png" /><noscript><img
+                                                                decoding="async" width="480" height="301"
+                                                                src="https://www.sdim.nl/app/uploads/2023/08/unhcr-advertentites-480x301.png"
+                                                                class="attachment-480p size-480p wp-post-image"
+                                                                alt="UNHCR advertenties"
+                                                                srcset="https://www.sdim.nl/app/uploads/2023/08/unhcr-advertentites-480x301.png 480w, https://www.sdim.nl/app/uploads/2023/08/unhcr-advertentites-300x188.png 300w, https://www.sdim.nl/app/uploads/2023/08/unhcr-advertentites-1024x642.png 1024w, https://www.sdim.nl/app/uploads/2023/08/unhcr-advertentites-768x481.png 768w, https://www.sdim.nl/app/uploads/2023/08/unhcr-advertentites-240x150.png 240w, https://www.sdim.nl/app/uploads/2023/08/unhcr-advertentites-360x226.png 360w, https://www.sdim.nl/app/uploads/2023/08/unhcr-advertentites-720x451.png 720w, https://www.sdim.nl/app/uploads/2023/08/unhcr-advertentites.png 1466w"
+                                                                sizes="(max-width: 480px) 100vw, 480px" /></noscript>
+                                                    </div>
+
+                                                    <span class="icon-double-arrows"></span>
+                                                </div>
+
+                                                <div class="content">
+
+                                                    <h3 class="title">
+                                                        <a href="https://www.sdim.nl/cases/unhcr/" class="overlay-link">
+                                                            Het succesverhaal van de UNHCR x SDIM Online Winterization
+                                                            Campagne </a>
+                                                    </h3>
+
+                                                    <div class="excerpt">
+                                                        Hoe slaagde SDIM erin traditionele en experimentele media te
+                                                        combineren voor optimale resultaten? Ontdek de impact van onze
+                                                        strategische keuzes.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="case-wrapper">
+                                        <div class="case mood">
+                                            <div class="inner">
+                                                <div class="top">
+                                                    <div class="image mood">
+                                                        <img decoding="async" width="480" height="480"
+                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%20480'%3E%3C/svg%3E"
+                                                            class="attachment-480p size-480p wp-post-image"
+                                                            alt="Fundustry case"
+                                                            data-lazy-srcset="https://www.sdim.nl/app/uploads/2024/02/fundustry-paintball-480x480.jpg 480w, https://www.sdim.nl/app/uploads/2024/02/fundustry-paintball-300x300.jpg 300w, https://www.sdim.nl/app/uploads/2024/02/fundustry-paintball-150x150.jpg 150w, https://www.sdim.nl/app/uploads/2024/02/fundustry-paintball-240x240.jpg 240w, https://www.sdim.nl/app/uploads/2024/02/fundustry-paintball-360x360.jpg 360w, https://www.sdim.nl/app/uploads/2024/02/fundustry-paintball.jpg 600w"
+                                                            data-lazy-sizes="(max-width: 480px) 100vw, 480px"
+                                                            data-lazy-src="https://www.sdim.nl/app/uploads/2024/02/fundustry-paintball-480x480.jpg" /><noscript><img
+                                                                decoding="async" width="480" height="480"
+                                                                src="https://www.sdim.nl/app/uploads/2024/02/fundustry-paintball-480x480.jpg"
+                                                                class="attachment-480p size-480p wp-post-image"
+                                                                alt="Fundustry case"
+                                                                srcset="https://www.sdim.nl/app/uploads/2024/02/fundustry-paintball-480x480.jpg 480w, https://www.sdim.nl/app/uploads/2024/02/fundustry-paintball-300x300.jpg 300w, https://www.sdim.nl/app/uploads/2024/02/fundustry-paintball-150x150.jpg 150w, https://www.sdim.nl/app/uploads/2024/02/fundustry-paintball-240x240.jpg 240w, https://www.sdim.nl/app/uploads/2024/02/fundustry-paintball-360x360.jpg 360w, https://www.sdim.nl/app/uploads/2024/02/fundustry-paintball.jpg 600w"
+                                                                sizes="(max-width: 480px) 100vw, 480px" /></noscript>
+                                                    </div>
+
+                                                    <span class="icon-double-arrows"></span>
+                                                </div>
+
+                                                <div class="content">
+
+                                                    <h3 class="title">
+                                                        <a href="https://www.sdim.nl/cases/fundustry/"
+                                                            class="overlay-link">
+                                                            Hoe optimalisaties aan de landingspagina zorgde voor 32,3%
+                                                            meer conversies voor Fundustry </a>
+                                                    </h3>
+
+                                                    <div class="excerpt">
+                                                        SDIM optimaliseerde de landingspagina van Fundustry door een
+                                                        gefocust redesign met heldere call-to-actions voor een specifiek
+                                                        product. Na A/B-testen en data-gedreven validatie, resulteerde
+                                                        dit in 32,3% meer conversies en 21,4% lagere kosten per
+                                                        conversie.
+                                                        Lees meer in onze case. </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <section
+                    class="wp-block-group image-with-caption is-layout-constrained wp-block-group-is-layout-constrained"
+                    style="margin-top:var(--wp--preset--spacing--xl);margin-bottom:var(--wp--preset--spacing--xl)">
+                    <div class="wp-block-cover is-light has-custom-content-position is-position-bottom-left"
+                       >
+                            <img src="/img/Animated-iPhone-mockup-[remix].gif" class="gif-images">
+                            <!-- CSS -->
+<style>
+  .gif-images {
+    width: 1200px; 
+    height: auto; 
+    max-width: 100%; 
+  }
+</style>
+
+                    </div>
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  <section
+                    class="wp-block-group articles-small is-layout-constrained wp-block-group-is-layout-constrained"
+                    style="margin-top:var(--wp--preset--spacing--xl);margin-bottom:var(--wp--preset--spacing--xl)">
+                    <style>
+                        #block_c8f00bdabcf2ee9ca078d55328023310 .radial-glow {
+                            background: radial-gradient(closest-side, rgba(247, 177, 171, 0.2), rgba(255, 0, 0, 0));
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(calc(-50% + -50%), calc(-50% + 0%));
+                            width: 840px;
+                            position: absolute;
+                            display: none;
+                            height: 675px;
+                        }
+
+                        @media (max-width: 981px) {
+                            #block_c8f00bdabcf2ee9ca078d55328023310 .radial-glow {
+                                transform: translate(calc(-50% + 0%), calc(-50% + 0%));
+                                width: 500px;
+                                height: 500px;
+                            }
+
+                            .relative-radial-glow {
+                                position: relative;
+                            }
+                    </style>
+                    <div class="relative-radial-glow" id="block_c8f00bdabcf2ee9ca078d55328023310">
+                        <span class="radial-glow is-style-pink"></span>
+                        <div class="acf-innerblocks-container">
+
+                            <div
+                                class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-9 wp-block-columns-is-layout-flex">
+                                <div
+                                    class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
+                                    <h2 class="wp-block-heading">Laatste <br><mark
+                                            style="background-color:rgba(0, 0, 0, 0)"
+                                            class="has-inline-color has-secondary-color">artikelen</mark></h2>
+                                </div>
+
+
+
+                                <div
+                                    class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
+                                    <div class="call-to-action  is-style-white ">
+                                        <a href="https://www.sdim.nl/artikelen/" target="_self" class="btn pink">
+                                            <span class="title">
+                                                Al onze artikelen </span>
+                                            <span class="icon-double-arrows"></span>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="connected-articles-block is-style-pink">
+                                <div class="posts small facetwp-template">
+
+                                    <article class="post-wrapper ">
+                                        <div class="post" style="position: relative">
+                                            <div class="image">
+                                                <a href="https://www.sdim.nl/artikelen/thought-leadership-waarom-en-hoe/"
+                                                    class="overlay-link">
+                                                    <img decoding="async" width="480" height="505"
+                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%20505'%3E%3C/svg%3E"
+                                                        class="attachment-480p size-480p wp-post-image"
+                                                        alt="Thought leadership"
+                                                        data-lazy-srcset="https://www.sdim.nl/app/uploads/2024/12/Thought-leadership-v2-480x505.jpg 480w, https://www.sdim.nl/app/uploads/2024/12/Thought-leadership-v2-285x300.jpg 285w, https://www.sdim.nl/app/uploads/2024/12/Thought-leadership-v2-768x808.jpg 768w, https://www.sdim.nl/app/uploads/2024/12/Thought-leadership-v2-240x252.jpg 240w, https://www.sdim.nl/app/uploads/2024/12/Thought-leadership-v2-360x379.jpg 360w, https://www.sdim.nl/app/uploads/2024/12/Thought-leadership-v2-720x757.jpg 720w, https://www.sdim.nl/app/uploads/2024/12/Thought-leadership-v2.jpg 865w"
+                                                        data-lazy-sizes="(max-width: 480px) 100vw, 480px"
+                                                        data-lazy-src="https://www.sdim.nl/app/uploads/2024/12/Thought-leadership-v2-480x505.jpg" /><noscript><img
+                                                            decoding="async" width="480" height="505"
+                                                            src="https://www.sdim.nl/app/uploads/2024/12/Thought-leadership-v2-480x505.jpg"
+                                                            class="attachment-480p size-480p wp-post-image"
+                                                            alt="Thought leadership"
+                                                            srcset="https://www.sdim.nl/app/uploads/2024/12/Thought-leadership-v2-480x505.jpg 480w, https://www.sdim.nl/app/uploads/2024/12/Thought-leadership-v2-285x300.jpg 285w, https://www.sdim.nl/app/uploads/2024/12/Thought-leadership-v2-768x808.jpg 768w, https://www.sdim.nl/app/uploads/2024/12/Thought-leadership-v2-240x252.jpg 240w, https://www.sdim.nl/app/uploads/2024/12/Thought-leadership-v2-360x379.jpg 360w, https://www.sdim.nl/app/uploads/2024/12/Thought-leadership-v2-720x757.jpg 720w, https://www.sdim.nl/app/uploads/2024/12/Thought-leadership-v2.jpg 865w"
+                                                            sizes="(max-width: 480px) 100vw, 480px" /></noscript> </a>
+                                            </div>
+
+                                            <div class="content">
+                                                <div class="info">
+                                                    <div class="author">
+                                                        <div class="avatar">
+                                                            <img decoding="async" width="1500" height="1500"
+                                                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201500%201500'%3E%3C/svg%3E"
+                                                                class="attachment-small size-small" alt="Yannick Bos"
+                                                                data-lazy-srcset="https://www.sdim.nl/app/uploads/2024/11/yannick-bos.jpg 1500w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-300x300.jpg 300w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-1024x1024.jpg 1024w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-150x150.jpg 150w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-768x768.jpg 768w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-240x240.jpg 240w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-360x360.jpg 360w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-480x480.jpg 480w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-720x720.jpg 720w"
+                                                                data-lazy-sizes="(max-width: 1500px) 100vw, 1500px"
+                                                                data-lazy-src="https://www.sdim.nl/app/uploads/2024/11/yannick-bos.jpg" /><noscript><img
+                                                                    decoding="async" width="1500" height="1500"
+                                                                    src="https://www.sdim.nl/app/uploads/2024/11/yannick-bos.jpg"
+                                                                    class="attachment-small size-small"
+                                                                    alt="Yannick Bos"
+                                                                    srcset="https://www.sdim.nl/app/uploads/2024/11/yannick-bos.jpg 1500w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-300x300.jpg 300w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-1024x1024.jpg 1024w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-150x150.jpg 150w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-768x768.jpg 768w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-240x240.jpg 240w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-360x360.jpg 360w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-480x480.jpg 480w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-720x720.jpg 720w"
+                                                                    sizes="(max-width: 1500px) 100vw, 1500px" /></noscript>
+                                                        </div>
+
+                                                        <div class="name">
+                                                            Yannick Bos </div>
+                                                    </div>
+
+                                                    <div class="date">
+                                                        16 december 2024 </div>
+                                                </div>
+
+                                                <a href="https://www.sdim.nl/artikelen/thought-leadership-waarom-en-hoe/"
+                                                    class="overlay-link title">
+                                                    Thought Leadership: waarom en hoe? </a>
+
+                                                <div class="spacer"></div>
+
+                                                <div class="excerpt">
+                                                    Met een toenemende focus op DemandGen versus LeadGen, worden ook
+                                                    ondersteunende strategieën steeds belangrijker. Hierin is thought
+                                                    leadership een&#8230; </div>
+
+                                                <div class="readtime">
+                                                    <div class="date">
+                                                        16 december 2024 </div>
+
+                                                    <span class="icon-double-arrow-right"></span> 4 minuten lezen
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <article class="post-wrapper ">
+                                        <div class="post" style="position: relative">
+                                            <div class="image">
+                                                <a href="https://www.sdim.nl/artikelen/wereldwijde-stijging-b2b-digital-marketing-uitgaven/"
+                                                    class="overlay-link">
+                                                    <img decoding="async" width="470" height="464"
+                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20470%20464'%3E%3C/svg%3E"
+                                                        class="attachment-480p size-480p wp-post-image"
+                                                        alt="B2B Digital Ad Spending Worldwide, 2020-2026"
+                                                        data-lazy-srcset="https://www.sdim.nl/app/uploads/2024/12/Emarketer-B2B-digital-ad-spend.png 470w, https://www.sdim.nl/app/uploads/2024/12/Emarketer-B2B-digital-ad-spend-300x296.png 300w, https://www.sdim.nl/app/uploads/2024/12/Emarketer-B2B-digital-ad-spend-240x237.png 240w, https://www.sdim.nl/app/uploads/2024/12/Emarketer-B2B-digital-ad-spend-360x355.png 360w"
+                                                        data-lazy-sizes="(max-width: 470px) 100vw, 470px"
+                                                        data-lazy-src="https://www.sdim.nl/app/uploads/2024/12/Emarketer-B2B-digital-ad-spend.png" /><noscript><img
+                                                            decoding="async" width="470" height="464"
+                                                            src="https://www.sdim.nl/app/uploads/2024/12/Emarketer-B2B-digital-ad-spend.png"
+                                                            class="attachment-480p size-480p wp-post-image"
+                                                            alt="B2B Digital Ad Spending Worldwide, 2020-2026"
+                                                            srcset="https://www.sdim.nl/app/uploads/2024/12/Emarketer-B2B-digital-ad-spend.png 470w, https://www.sdim.nl/app/uploads/2024/12/Emarketer-B2B-digital-ad-spend-300x296.png 300w, https://www.sdim.nl/app/uploads/2024/12/Emarketer-B2B-digital-ad-spend-240x237.png 240w, https://www.sdim.nl/app/uploads/2024/12/Emarketer-B2B-digital-ad-spend-360x355.png 360w"
+                                                            sizes="(max-width: 470px) 100vw, 470px" /></noscript> </a>
+                                            </div>
+
+                                            <div class="content">
+                                                <div class="info">
+                                                    <div class="author">
+                                                        <div class="avatar">
+                                                            <img decoding="async" width="1500" height="1500"
+                                                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201500%201500'%3E%3C/svg%3E"
+                                                                class="attachment-small size-small" alt="Yannick Bos"
+                                                                data-lazy-srcset="https://www.sdim.nl/app/uploads/2024/11/yannick-bos.jpg 1500w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-300x300.jpg 300w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-1024x1024.jpg 1024w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-150x150.jpg 150w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-768x768.jpg 768w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-240x240.jpg 240w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-360x360.jpg 360w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-480x480.jpg 480w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-720x720.jpg 720w"
+                                                                data-lazy-sizes="(max-width: 1500px) 100vw, 1500px"
+                                                                data-lazy-src="https://www.sdim.nl/app/uploads/2024/11/yannick-bos.jpg" /><noscript><img
+                                                                    decoding="async" width="1500" height="1500"
+                                                                    src="https://www.sdim.nl/app/uploads/2024/11/yannick-bos.jpg"
+                                                                    class="attachment-small size-small"
+                                                                    alt="Yannick Bos"
+                                                                    srcset="https://www.sdim.nl/app/uploads/2024/11/yannick-bos.jpg 1500w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-300x300.jpg 300w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-1024x1024.jpg 1024w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-150x150.jpg 150w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-768x768.jpg 768w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-240x240.jpg 240w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-360x360.jpg 360w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-480x480.jpg 480w, https://www.sdim.nl/app/uploads/2024/11/yannick-bos-720x720.jpg 720w"
+                                                                    sizes="(max-width: 1500px) 100vw, 1500px" /></noscript>
+                                                        </div>
+
+                                                        <div class="name">
+                                                            Yannick Bos </div>
+                                                    </div>
+
+                                                    <div class="date">
+                                                        3 december 2024 </div>
+                                                </div>
+
+                                                <a href="https://www.sdim.nl/artikelen/wereldwijde-stijging-b2b-digital-marketing-uitgaven/"
+                                                    class="overlay-link title">
+                                                    Wereldwijde stijging in Digitale marketing uitgaven vanuit B2B </a>
+
+                                                <div class="spacer"></div>
+
+                                                <div class="excerpt">
+                                                    B2B is van oorsprong een traditionele markt en leunt daarmee op
+                                                    traditionele media als vakbladen, kranten, radio, televisie
+                                                    en&#8230; </div>
+
+                                                <div class="readtime">
+                                                    <div class="date">
+                                                        3 december 2024 </div>
+
+                                                    <span class="icon-double-arrow-right"></span> 2 minuten lezen
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <article class="post-wrapper ">
+                                        <div class="post" style="position: relative">
+                                            <div class="image">
+                                                <a href="https://www.sdim.nl/artikelen/social-media-update-november/"
+                                                    class="overlay-link">
+                                                    <img decoding="async" width="480" height="506"
+                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%20506'%3E%3C/svg%3E"
+                                                        class="attachment-480p size-480p wp-post-image"
+                                                        alt="YouTube poll sticker"
+                                                        data-lazy-srcset="https://www.sdim.nl/app/uploads/2024/11/youtube_poll_sticker_Shorts-480x506.webp 480w, https://www.sdim.nl/app/uploads/2024/11/youtube_poll_sticker_Shorts-284x300.webp 284w, https://www.sdim.nl/app/uploads/2024/11/youtube_poll_sticker_Shorts-240x253.webp 240w, https://www.sdim.nl/app/uploads/2024/11/youtube_poll_sticker_Shorts-360x380.webp 360w, https://www.sdim.nl/app/uploads/2024/11/youtube_poll_sticker_Shorts.webp 600w"
+                                                        data-lazy-sizes="(max-width: 480px) 100vw, 480px"
+                                                        data-lazy-src="https://www.sdim.nl/app/uploads/2024/11/youtube_poll_sticker_Shorts-480x506.webp" /><noscript><img
+                                                            decoding="async" width="480" height="506"
+                                                            src="https://www.sdim.nl/app/uploads/2024/11/youtube_poll_sticker_Shorts-480x506.webp"
+                                                            class="attachment-480p size-480p wp-post-image"
+                                                            alt="YouTube poll sticker"
+                                                            srcset="https://www.sdim.nl/app/uploads/2024/11/youtube_poll_sticker_Shorts-480x506.webp 480w, https://www.sdim.nl/app/uploads/2024/11/youtube_poll_sticker_Shorts-284x300.webp 284w, https://www.sdim.nl/app/uploads/2024/11/youtube_poll_sticker_Shorts-240x253.webp 240w, https://www.sdim.nl/app/uploads/2024/11/youtube_poll_sticker_Shorts-360x380.webp 360w, https://www.sdim.nl/app/uploads/2024/11/youtube_poll_sticker_Shorts.webp 600w"
+                                                            sizes="(max-width: 480px) 100vw, 480px" /></noscript> </a>
+                                            </div>
+
+                                            <div class="content">
+                                                <div class="info">
+                                                    <div class="author">
+                                                        <div class="avatar">
+                                                            <img decoding="async" width="1500" height="1500"
+                                                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201500%201500'%3E%3C/svg%3E"
+                                                                class="attachment-small size-small" alt="Noa Bosker"
+                                                                data-lazy-srcset="https://www.sdim.nl/app/uploads/2024/11/noa-bosker.jpg 1500w, https://www.sdim.nl/app/uploads/2024/11/noa-bosker-300x300.jpg 300w, https://www.sdim.nl/app/uploads/2024/11/noa-bosker-1024x1024.jpg 1024w, https://www.sdim.nl/app/uploads/2024/11/noa-bosker-150x150.jpg 150w, https://www.sdim.nl/app/uploads/2024/11/noa-bosker-768x768.jpg 768w, https://www.sdim.nl/app/uploads/2024/11/noa-bosker-240x240.jpg 240w, https://www.sdim.nl/app/uploads/2024/11/noa-bosker-360x360.jpg 360w, https://www.sdim.nl/app/uploads/2024/11/noa-bosker-480x480.jpg 480w, https://www.sdim.nl/app/uploads/2024/11/noa-bosker-720x720.jpg 720w"
+                                                                data-lazy-sizes="(max-width: 1500px) 100vw, 1500px"
+                                                                data-lazy-src="https://www.sdim.nl/app/uploads/2024/11/noa-bosker.jpg" /><noscript><img
+                                                                    decoding="async" width="1500" height="1500"
+                                                                    src="https://www.sdim.nl/app/uploads/2024/11/noa-bosker.jpg"
+                                                                    class="attachment-small size-small" alt="Noa Bosker"
+                                                                    srcset="https://www.sdim.nl/app/uploads/2024/11/noa-bosker.jpg 1500w, https://www.sdim.nl/app/uploads/2024/11/noa-bosker-300x300.jpg 300w, https://www.sdim.nl/app/uploads/2024/11/noa-bosker-1024x1024.jpg 1024w, https://www.sdim.nl/app/uploads/2024/11/noa-bosker-150x150.jpg 150w, https://www.sdim.nl/app/uploads/2024/11/noa-bosker-768x768.jpg 768w, https://www.sdim.nl/app/uploads/2024/11/noa-bosker-240x240.jpg 240w, https://www.sdim.nl/app/uploads/2024/11/noa-bosker-360x360.jpg 360w, https://www.sdim.nl/app/uploads/2024/11/noa-bosker-480x480.jpg 480w, https://www.sdim.nl/app/uploads/2024/11/noa-bosker-720x720.jpg 720w"
+                                                                    sizes="(max-width: 1500px) 100vw, 1500px" /></noscript>
+                                                        </div>
+
+                                                        <div class="name">
+                                                            Noa Bosker </div>
+                                                    </div>
+
+                                                    <div class="date">
+                                                        28 november 2024 </div>
+                                                </div>
+
+                                                <a href="https://www.sdim.nl/artikelen/social-media-update-november/"
+                                                    class="overlay-link title">
+                                                    LinkedIn lanceert Video Tab en nieuwe advertentiemogelijkheden voor
+                                                    YouTube Shorts </a>
+
+                                                <div class="spacer"></div>
+
+                                                <div class="excerpt">
+                                                    De feestdagen zijn in aantocht en daarmee dé tijd van het jaar
+                                                    waarin social media kanalen overspoeld worden met&#8230; </div>
+
+                                                <div class="readtime">
+                                                    <div class="date">
+                                                        28 november 2024 </div>
+
+                                                    <span class="icon-double-arrow-right"></span> 6 minuten lezen
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </section>

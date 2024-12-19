@@ -1,0 +1,129 @@
+.content-image-cta p {
+    font-size: 12px
+}
+
+.homepage-pilar {
+    background: var(--wp--preset--color--on-primary);
+    border-radius: 15px;
+    position: relative;
+    height: 100%
+}
+
+.homepage-pilar:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 15px;
+    background-image: linear-gradient(20deg, #6984c9, #3857a3 70%), linear-gradient(30deg, #ffd23f, #f7b1ab 35%, #9fedea 70%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    -webkit-background-clip: content-box, border-box;
+    opacity: 0;
+    transition: opacity .14s ease-in-out
+}
+
+.homepage-pilar:before,
+.homepage-pilar a {
+    height: 100%;
+    width: 100%;
+    border: 2px solid transparent
+}
+
+.homepage-pilar a {
+    position: relative;
+    color: #fff !important;
+    background-clip: padding-box;
+    padding: 25px 25px 40px;
+    display: block
+}
+
+.homepage-pilar a .icon {
+    width: fit-content;
+    padding: 20px
+}
+
+.homepage-pilar a .icon.circles,
+.homepage-pilar a .icon.group {
+    background: radial-gradient(closest-side, hsla(5, 83%, 82%, .2), rgba(255, 0, 0, 0))
+}
+
+.homepage-pilar a .icon.pencil,
+.homepage-pilar a .icon.stats {
+    background: radial-gradient(closest-side, rgba(255, 210, 63, .2), rgba(255, 0, 0, 0))
+}
+
+.homepage-pilar a .icon.pie {
+    background: radial-gradient(closest-side, rgba(102, 215, 209, .2), rgba(255, 0, 0, 0))
+}
+
+.homepage-pilar a .title {
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #fff
+}
+
+.homepage-pilar a .desc {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 70%;
+    color: #fff
+}
+
+@media (max-width:479px) {
+    .homepage-pilar a .desc {
+        max-width: 100%
+    }
+}
+
+.homepage-pilar a .btn {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #fff;
+    font-size: 14px;
+    background-color: transparent;
+    padding: 10px 25px;
+    transition: background-color .14s ease-in-out;
+    pointer-events: none
+}
+
+@media (max-width:479px) {
+    .homepage-pilar a .btn {
+        bottom: inherit;
+        top: 30px
+    }
+}
+
+.homepage-pilar a .btn:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 10px;
+    padding: 1px;
+    background: linear-gradient(-137deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--secondary), var(--wp--preset--color--primary));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none
+}
+
+.homepage-pilar a:hover {
+    cursor: pointer
+}
+
+.homepage-pilar a:hover .btn {
+    color: #000;
+    background-color: var(--wp--preset--color--tertiary)
+}
+
+.homepage-pilar a:hover .btn:before {
+    background: none;
+    -webkit-mask: none;
+    border: none;
+    padding: 0
+}
+
+.homepage-pilar:hover:before {
+    opacity: 1
+}

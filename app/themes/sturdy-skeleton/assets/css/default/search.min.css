@@ -1,0 +1,84 @@
+.content-image-cta p {
+    font-size: 12px
+}
+
+#search {
+    width: 100%;
+    flex: 1;
+    display: inline-block;
+    position: relative;
+    z-index: 999
+}
+
+#search span {
+    cursor: pointer;
+    font-size: modular-scale(0)
+}
+
+#search span.icon-search {
+    display: flex;
+    color: var(--wp--preset--color--black)
+}
+
+#search form input {
+    flex: 2;
+    height: 50px;
+    width: 100%;
+    border: 0;
+    font-family: inherit;
+    background-color: transparent;
+    padding-left: 1em;
+    color: var(--wp--preset--color--white)
+}
+
+#search form input::placeholder {
+    padding-left: 0
+}
+
+#search form input:focus {
+    outline: 0
+}
+
+#search form input[type=search]::-webkit-search-cancel-button,
+#search form input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none;
+    appearance: none
+}
+
+#search form {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    border-radius: 15px;
+    background-image: linear-gradient(20deg, #6984c9, #3857a3 70%), linear-gradient(30deg, #ffd23f, #f7b1ab 35%, #9fedea 70%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    -webkit-background-clip: content-box, border-box;
+    border: 2px solid transparent
+}
+
+#search form button[type=submit] {
+    flex-basis: 50px;
+    font-size: 19px;
+    background: transparent;
+    border: 0;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: lowercase;
+    z-index: 1;
+    position: absolute;
+    top: 13px;
+    right: 6px
+}
+
+#search form button[type=submit] span {
+    color: var(--wp--preset--color--white) !important
+}
+
+#search form button[type=submit]:focus {
+    outline: 0
+}

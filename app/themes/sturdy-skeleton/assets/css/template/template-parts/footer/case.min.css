@@ -1,0 +1,63 @@
+.content-image-cta p {
+    font-size: 12px
+}
+
+footer .case {
+    display: flex;
+    gap: 1em
+}
+
+@media (max-width:980px) {
+    footer .case {
+        display: none
+    }
+}
+
+footer .case .image {
+    position: relative;
+    min-width: 200px;
+    background-color: var(--wp--preset--color--secondary);
+    border-radius: 30px
+}
+
+footer .case .image img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: contain
+}
+
+footer .case .content {
+    background-color: var(--wp--preset--color--foreground);
+    border-radius: 30px;
+    padding: 2em;
+    margin: 0
+}
+
+footer .case .content .h4 {
+    color: var(--wp--preset--color--tertiary);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: unset
+}
+
+footer .case .content .h3 {
+    font-size: 26px;
+    line-height: 30px;
+    padding: 10px 0 30px;
+    display: block;
+    text-transform: unset
+}
+
+footer .case .content .excerpt {
+    font-size: 20px;
+    line-height: normal;
+    color: #fff5f4;
+    font-weight: 300;
+    font-family: var(--wp--preset--font-family--futura-pt)
+}
+
+footer .case .content .btn {
+    margin-top: 30px
+}

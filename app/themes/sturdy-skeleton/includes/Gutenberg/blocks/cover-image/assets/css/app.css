@@ -1,0 +1,142 @@
+.content-image-cta p {
+    font-size: 12px
+}
+
+.sd-cover-block .wp-block-cover {
+    border-radius: 25px;
+    padding: 0
+}
+
+.sd-cover-block .wp-block-cover picture {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    inset: 0
+}
+
+.sd-cover-block .wp-block-cover picture img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+}
+
+.sd-cover-block.is-style-circle .wp-block-cover {
+    border-radius: 50%;
+    padding: 0;
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+    min-height: auto
+}
+
+@media (max-width:980px) {
+    .sd-cover-block.is-style-circle .wp-block-cover {
+        margin: 0 auto
+    }
+}
+
+@media (min-width:981px) {
+    .sd-cover-block.is-style-circle .wp-block-cover {
+        height: 450px;
+        width: 450px
+    }
+}
+
+@media (min-width:1400px) {
+    .sd-cover-block.is-style-circle .wp-block-cover {
+        height: 600px;
+        width: 600px
+    }
+}
+
+.sd-cover-block.is-style-circle .wp-block-cover img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    inset: 0
+}
+
+.sd-cover-block.is-style-triangle .wp-block-cover {
+    transform: rotate(90deg);
+    clip-path: polygon(99.485% 7.325%, 55.876% 97.737%, 55.876% 97.737%, 55.464% 98.441%, 54.963% 99.052%, 54.385% 99.564%, 53.744% 99.973%, 53.053% 100.275%, 52.326% 100.463%, 51.576% 100.535%, 50.817% 100.485%, 50.062% 100.308%, 49.325% 100%, 49.325% 100%, 49.047% 99.844%, 48.781% 99.671%, 48.526% 99.48%, 48.285% 99.274%, 48.056% 99.052%, 47.842% 98.815%, 47.643% 98.565%, 47.46% 98.301%, 47.292% 98.025%, 47.142% 97.737%, 3.533% 7.325%, 3.533% 7.325%, 3.236% 6.561%, 3.065% 5.778%, 3.017% 4.992%, 3.086% 4.214%, 3.268% 3.461%, 3.559% 2.744%, 3.953% 2.08%, 4.447% 1.481%, 5.037% .961%, 5.716% .534%, 5.716% .534%, 5.922% .434%, 6.131% .344%, 6.344% .264%, 6.559% .194%, 6.778% .135%, 6.999% .087%, 7.222% .049%, 7.447% .022%, 7.673% .005%, 7.9% 0, 95.118% 0, 95.118% 0, 95.91% .066%, 96.661% .258%, 97.361% .565%, 98.001% .977%, 98.57% 1.482%, 99.058% 2.072%, 99.455% 2.735%, 99.751% 3.461%, 99.936% 4.24%, 100% 5.061%, 100% 5.061%, 99.995% 5.296%, 99.979% 5.531%, 99.953% 5.764%, 99.916% 5.995%, 99.869% 6.224%, 99.812% 6.451%, 99.745% 6.674%, 99.668% 6.895%, 99.581% 7.112%, 99.485% 7.325%);
+    height: 300px;
+    width: 300px;
+    min-height: auto;
+    padding: 0
+}
+
+@media (max-width:980px) {
+    .sd-cover-block.is-style-triangle .wp-block-cover {
+        margin: 0 auto
+    }
+}
+
+@media (min-width:981px) {
+    .sd-cover-block.is-style-triangle .wp-block-cover {
+        height: 450px;
+        width: 450px
+    }
+}
+
+@media (min-width:1400px) {
+    .sd-cover-block.is-style-triangle .wp-block-cover {
+        height: 600px;
+        width: 600px
+    }
+}
+
+.sd-cover-block.is-style-triangle .wp-block-cover img {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+    position: absolute;
+    inset: 0;
+    object-fit: cover
+}
+
+.sd-cover-block.is-style-triangle .wp-block-cover .wp-block-cover__inner-container,
+.sd-cover-block.is-style-triangle .wp-block-cover span {
+    transform: rotate(-90deg)
+}
+
+.sd-cover-block.blue .wp-block-cover,
+.sd-cover-block.pink .wp-block-cover,
+.sd-cover-block.yellow .wp-block-cover {
+    box-shadow: 0 0 150px -50px
+}
+
+.sd-cover-block.yellow .wp-block-cover {
+    color: var(--wp--preset--color--primary)
+}
+
+.sd-cover-block.pink .wp-block-cover {
+    color: var(--wp--preset--color--secondary)
+}
+
+.sd-cover-block.blue .wp-block-cover {
+    color: var(--wp--preset--color--tertiary)
+}
+
+.sd-cover-block.contain-image picture img,
+.sd-cover-block.contain-image picture source {
+    object-fit: contain;
+    border-radius: 25px;
+    width: auto;
+    height: auto;
+    margin: 0 auto
+}
+
+@media (min-width:480px) {
+    .sd-cover-block.contain-image picture img,
+    .sd-cover-block.contain-image picture source {
+        height: 100%
+    }
+}
+
+@media (min-width:768px) {
+    .sd-cover-block.contain-image picture img,
+    .sd-cover-block.contain-image picture source {
+        height: auto
+    }
+}

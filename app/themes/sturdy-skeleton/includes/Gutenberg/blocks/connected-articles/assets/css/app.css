@@ -1,0 +1,396 @@
+.content-image-cta p {
+    font-size: 12px
+}
+
+.connected-articles-block .tns-controls {
+    display: none
+}
+
+.connected-articles-block .tns-inner {
+    margin-left: 0 !important
+}
+
+.connected-articles-block .posts {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px
+}
+
+@media (min-width:981px) {
+    .connected-articles-block .posts {
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+.connected-articles-block .posts .post-wrapper .post {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+.connected-articles-block .posts .post-wrapper .post .image {
+    height: 275px;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px
+}
+
+.connected-articles-block .posts .post-wrapper .post .image img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    inset: 0;
+    transform: scale(1);
+    transition: transform .14s ease-in-out
+}
+
+.connected-articles-block .posts .post-wrapper .post .content .info {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px
+}
+
+.connected-articles-block .posts .post-wrapper .post .content .info .author {
+    display: flex;
+    align-items: center;
+    gap: 15px
+}
+
+.connected-articles-block .posts .post-wrapper .post .content .info .author .avatar {
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px
+}
+
+.connected-articles-block .posts .post-wrapper .post .content .info .author .avatar img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    object-fit: cover
+}
+
+.connected-articles-block .posts .post-wrapper .post .content .info .date {
+    color: #949494
+}
+
+.connected-articles-block .posts .post-wrapper .post .content .title {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500
+}
+
+.connected-articles-block .posts .post-wrapper .post .content .title:hover {
+    color: var(--wp--preset--color--primary)
+}
+
+.connected-articles-block .posts .post-wrapper .post .content .spacer {
+    margin-bottom: 20px
+}
+
+.connected-articles-block .posts .post-wrapper .post .content .excerpt {
+    font-size: 16px;
+    margin-bottom: 20px
+}
+
+.connected-articles-block .posts .post-wrapper .post .content .readtime {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.connected-articles-block .posts .post-wrapper .post .content .readtime .icon-double-arrow-right {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--wp--preset--color--white);
+    background-image: linear-gradient(20deg, #6984c9, #3857a3 70%), linear-gradient(45deg, #ffd23f, #f7b1ab 50%, #9fedea);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    -webkit-background-clip: content-box, border-box;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    font-size: 14px
+}
+
+.connected-articles-block .posts .post-wrapper .post .content .readtime .date {
+    display: none
+}
+
+.connected-articles-block .posts .post-wrapper .post:hover .image img {
+    transform: scale(1.1)
+}
+
+.connected-articles-block .posts .post-wrapper .post:hover .readtime .icon-double-arrow-right:before {
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: arrowAnimation
+}
+
+.connected-articles-block .posts .post-wrapper:not(.large-item) {
+    display: flex;
+    flex-direction: column
+}
+
+.connected-articles-block .posts .post-wrapper:not(.large-item) .content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1
+}
+
+@media (min-width:981px) {
+    .connected-articles-block .posts.big {
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+.connected-articles-block .posts.big .title {
+    font-family: var(--wp--preset--font-family--futura-pt)
+}
+
+@media (min-width:981px) {
+    .connected-articles-block .posts.big .large-item {
+        grid-column: 1/3;
+        min-height: 525px
+    }
+}
+
+@media (min-width:981px) {
+    .connected-articles-block .posts.big .large-item .image {
+        height: 100%
+    }
+    .connected-articles-block .posts.big .large-item .image:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(0deg, #000, transparent)
+    }
+}
+
+@media (min-width:981px) {
+    .connected-articles-block .posts.big .large-item .content {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        right: 30px
+    }
+}
+
+@media (min-width:981px) {
+    .connected-articles-block .posts.big .large-item .content .excerpt,
+    .connected-articles-block .posts.big .large-item .content .info .date,
+    .connected-articles-block .posts.big .large-item .content .spacer {
+        display: none
+    }
+}
+
+@media (min-width:981px) {
+    .connected-articles-block .posts.big .large-item .content .readtime {
+        position: absolute;
+        bottom: 0;
+        right: 0
+    }
+}
+
+@media (min-width:981px) {
+    .connected-articles-block .posts.big .large-item .content .readtime .date {
+        display: block
+    }
+}
+
+@media (min-width:981px) {
+    .connected-articles-block .posts.big .large-item .content .title {
+        padding-right: 350px
+    }
+}
+
+@media (min-width:981px) {
+    .connected-articles-block .posts.visual {
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+.connected-articles-block .posts.visual .post-wrapper {
+    position: relative
+}
+
+.connected-articles-block .posts.visual .post-wrapper .image {
+    display: none
+}
+
+.connected-articles-block .posts.visual .post-wrapper .title {
+    font-family: var(--wp--preset--font-family--futura-pt);
+    font-weight: 500
+}
+
+.connected-articles-block .posts.visual .post-wrapper:first-child:after,
+.connected-articles-block .posts.visual .post-wrapper:nth-child(3):after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(90deg, #ffd23f, #f7b1ab 50%, #9fedea)
+}
+
+@media (min-width:981px) {
+    .connected-articles-block .posts.visual .post-wrapper:nth-child(3):after {
+        display: none
+    }
+    .connected-articles-block .posts.visual .post-wrapper:nth-child(2):after {
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+        height: 1px;
+        width: 100%;
+        background: linear-gradient(90deg, #ffd23f, #f7b1ab 50%, #9fedea)
+    }
+}
+
+.connected-articles-block .posts.visual .visual {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+    grid-row: 3
+}
+
+@media (min-width:981px) {
+    .connected-articles-block .posts.visual .visual {
+        height: 100%;
+        grid-column: 2;
+        grid-row: 1/3
+    }
+}
+
+.connected-articles-block .posts.visual .visual img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+}
+
+@media (max-width:980px) {
+    .connected-articles-block .posts.small {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0
+    }
+    .connected-articles-block .posts.small .post-wrapper {
+        width: 100%
+    }
+    .connected-articles-block .posts.small .post-wrapper:not(:last-of-type) {
+        margin-bottom: 20px
+    }
+}
+
+.connected-articles-block.is-style-pink .post .title {
+    color: var(--wp--preset--color--secondary)
+}
+
+.connected-articles-block.is-style-pink .post .title:hover {
+    color: var(--wp--preset--color--secondary) !important
+}
+
+.connected-articles-block.is-style-blue .post .title {
+    color: var(--wp--preset--color--tertiary)
+}
+
+.connected-articles-block.is-style-blue .post .title:hover {
+    color: var(--wp--preset--color--tertiary) !important
+}
+
+.connected-articles-block .content-image-cta p {
+    font-size: 12px
+}
+
+.connected-articles-block .pagination .facetwp-facet-pager_ {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.connected-articles-block .pagination .facetwp-facet-pager_ .facetwp-pager {
+    display: flex;
+    align-items: center;
+    gap: 15px
+}
+
+.connected-articles-block .pagination .facetwp-facet-pager_ .facetwp-page {
+    margin: 0;
+    padding: 0;
+    color: #fff
+}
+
+.connected-articles-block .pagination .facetwp-facet-pager_ .facetwp-page:not(.dots) {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--wp--preset--color--quinary);
+    border-radius: 15px;
+    transition: color .2s ease-in-out, background-color .2s ease-in-out;
+    font-size: 16px
+}
+
+.connected-articles-block .pagination .facetwp-facet-pager_ .facetwp-page:not(.dots).next,
+.connected-articles-block .pagination .facetwp-facet-pager_ .facetwp-page:not(.dots).prev {
+    width: 70px;
+    border: 0;
+    background: var(--wp--preset--color--primary);
+    color: var(--wp--preset--color--background);
+    font-size: 14px
+}
+
+.connected-articles-block .pagination .facetwp-facet-pager_ .facetwp-page:not(.dots).next:hover,
+.connected-articles-block .pagination .facetwp-facet-pager_ .facetwp-page:not(.dots).prev:hover {
+    background: var(--wp--preset--color--quinary);
+    color: var(--wp--preset--color--background)
+}
+
+.connected-articles-block .pagination .facetwp-facet-pager_ .facetwp-page:not(.dots).next span,
+.connected-articles-block .pagination .facetwp-facet-pager_ .facetwp-page:not(.dots).prev span {
+    width: auto
+}
+
+.connected-articles-block .pagination .facetwp-facet-pager_ .facetwp-page:not(.dots).next span:before,
+.connected-articles-block .pagination .facetwp-facet-pager_ .facetwp-page:not(.dots).prev span:before {
+    width: inherit
+}
+
+.connected-articles-block .pagination .facetwp-facet-pager_ .facetwp-page:not(.dots).active,
+.connected-articles-block .pagination .facetwp-facet-pager_ .facetwp-page:not(.dots):hover {
+    border: 1px solid transparent;
+    background: linear-gradient(#1c2826, #1c2826) padding-box, linear-gradient(-137deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--secondary), var(--wp--preset--color--primary)) border-box
+}
+
+.connected-articles-block .pagination {
+    margin-top: 50px
+}
+
+@media (min-width:981px) {
+    .connected-articles-block .pagination {
+        margin-top: 100px
+    }
+}

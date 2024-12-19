@@ -1,0 +1,30 @@
+.content-image-cta p {
+    font-size: 12px
+}
+
+.wp-block-group.text-image {
+    margin: 80px 0
+}
+
+.wp-block-group.text-image .wp-block-columns.is-layout-flex {
+    gap: 80px;
+    align-items: center !important
+}
+
+.wp-block-group.text-image p {
+    font-size: 16px;
+    line-height: 26px
+}
+
+@media (max-width:479px) {
+    .wp-block-group.text-image {
+        margin: 40px 0
+    }
+    .wp-block-group.text-image .radial-glow {
+        display: none
+    }
+    .wp-block-group.text-image h2 {
+        font-size: 40px;
+        word-spacing: inherit
+    }
+}

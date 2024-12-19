@@ -1,0 +1,12 @@
+.content-image-cta p {
+    font-size: 12px
+}
+
+.section-form,
+.social-sharing,
+body>footer,
+body>header nav,
+form,
+iframe {
+    display: none !important
+}

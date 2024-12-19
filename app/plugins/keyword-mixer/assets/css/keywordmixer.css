@@ -1,0 +1,168 @@
+a.km_columnCountSelected {
+    color: #0099ff;
+}
+
+#km_action {
+    margin-top: 5px;
+    padding: 5px 10px;
+    width: 105px;
+}
+
+#km_action,
+#km_options li {
+    border-radius: 10px;
+}
+
+#km_action:hover {
+    background-color: #0099FF;
+    color: #fff;
+}
+
+.km_adjacentGap {
+    margin-left: 7px;
+}
+
+.km_clear {
+    clear: both;
+}
+
+#km_columnCountMenu a {
+    margin-right: 3px;
+}
+
+#km_container {
+    font-size: 12px;
+}
+
+#km_container button {
+    color: #666;
+    background-color: #fff;
+    border: 1px solid #0099FF;
+}
+
+#km_container button,
+ul#km_options li {
+    cursor: pointer;
+    text-align: center;
+}
+
+#km_container textarea {
+    overflow: auto;
+    resize: none;
+}
+
+.km_countContainer {
+    color: #ff0000;
+}
+
+#km_head {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+#km_inputs textarea {
+    height: 351px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: calc(33.33333% - 30px);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    background-image: linear-gradient(20deg, #192422 0%, #192422 70%), linear-gradient(30deg, #ffd23f 0%, #f7b1ab 35%, #9fedea 70%);
+}
+
+.km_left {
+    cursor: pointer;
+    float: left;
+}
+
+#km_loadr {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#km_lock {
+    margin-bottom: -7px;
+}
+
+#km_options {
+    font-size: 12px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#km_options li {
+    border: 1px solid #b1d233;
+    margin: 5px 0;
+    padding: 5px 10px;
+    width: 110px;
+}
+
+.km_optionSelected {
+    background-color: #b1d233;
+    color: #fff;
+}
+
+.km_optionUnselected {
+    color: #666;
+}
+
+.km_plusOption {
+    display: inline-block;
+    height: 17px;
+    margin-right: 110px;
+    overflow: hidden;
+    width: 133px;
+}
+
+.km_plusSelected {
+    background-color: #b1d233;
+    border: 1px solid #b1d233;
+    color: #fff;
+}
+
+#km_plusses {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#km_plusses li {
+    border-radius: 4px;
+    float: left;
+    padding: 1px 5px;
+}
+
+.km_plusUnselected {
+    border: 1px solid #c4c4c4;
+    color: #c4c4c4;
+}
+
+#km_response {
+    margin-top: 10px;
+}
+
+#km_results {
+    width: 100%;
+}
+
+.km_right {
+    float: right;
+}
+
+.km_tip {
+    color: #989898;
+    font-size: 10px;
+}
+
+.km_transparent {
+    filter: alpha(opacity=20);
+    -khtml-opacity: 0.2;
+    -moz-opacity: 0.2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    opacity: 0.2;
+}
